@@ -1,0 +1,5 @@
+## all info that my be usefull to go further 
+
+# Images 
+https://github.com/typecraft-dev/dotfiles/blob/master/backgrounds/.config/backgrounds/
+
