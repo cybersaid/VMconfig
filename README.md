@@ -30,8 +30,8 @@ VMconfig/
 
 ### 1. Cloner le dépôt
 ```bash
-git clone https://github.com/ton-utilisateur/fedora-setup.git
-cd fedora-setup
+git clone https://github.com/cybersaid/VMconfig.git
+cd VMconfig
 chmod +x setup.sh
 ./setup.sh
 ```
