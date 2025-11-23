@@ -1,0 +1,12 @@
+2025/11/22-09:37:14.691 3b2e Reusing MANIFEST /home/shadrix/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/nngceckbapebfimnlniiiahkandclblb/MANIFEST-000001
+2025/11/22-09:37:14.692 3b2e Recovering log #37
+2025/11/22-09:37:14.699 3b2e Reusing old log /home/shadrix/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/nngceckbapebfimnlniiiahkandclblb/000037.log 
+2025/11/22-16:58:37.754 3b2e Level-0 table #42: started
+2025/11/22-16:58:37.771 3b2e Level-0 table #42: 4380635 bytes OK
+2025/11/22-16:58:37.773 3b2e Delete type=0 #37
+2025/11/22-18:08:17.814 3b2e Compacting 1@1 + 1@2 files
+2025/11/22-18:08:17.838 3b2e Generated table #43@1: 52 keys, 1339146 bytes
+2025/11/22-18:08:17.838 3b2e Compacted 1@1 + 1@2 files => 1339146 bytes
+2025/11/22-18:08:17.839 3b2e compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/11/22-18:08:17.839 3b2e Delete type=2 #39
+2025/11/22-18:08:17.839 3b2e Delete type=2 #42

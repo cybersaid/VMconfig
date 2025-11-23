@@ -1,0 +1,12 @@
+2025/11/22-18:09:36.567 3b2e Reusing MANIFEST /home/shadrix/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/11/22-18:09:36.568 3b2e Recovering log #19
+2025/11/22-18:09:36.570 3b2e Reusing old log /home/shadrix/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000019.log 
+2025/11/22-18:09:38.165 3b2e Compacting 1@1 + 1@2 files
+2025/11/22-18:09:38.175 3b2e Generated table #22@1: 174 keys, 749641 bytes
+2025/11/22-18:09:38.175 3b2e Compacted 1@1 + 1@2 files => 749641 bytes
+2025/11/22-18:09:38.176 3b2e compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/11/22-18:09:38.177 3b2e Delete type=2 #18
+2025/11/22-18:09:38.177 3b2e Delete type=2 #20
+2025/11/22-18:09:49.467 3b31 Level-0 table #24: started
+2025/11/22-18:09:49.508 3b31 Level-0 table #24: 3230349 bytes OK
+2025/11/22-18:09:49.511 3b31 Delete type=0 #19

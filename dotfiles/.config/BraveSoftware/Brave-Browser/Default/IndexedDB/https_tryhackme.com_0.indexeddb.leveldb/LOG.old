@@ -1,0 +1,14 @@
+2025/11/22-20:54:45.013 3b31 Reusing MANIFEST /home/shadrix/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_tryhackme.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/11/22-20:54:45.014 3b31 Recovering log #340
+2025/11/22-20:54:45.014 3b31 Reusing old log /home/shadrix/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_tryhackme.com_0.indexeddb.leveldb/000340.log 
+2025/11/22-20:54:45.014 3b31 Delete type=2 #339
+2025/11/22-20:54:45.032 3b2e Level-0 table #345: started
+2025/11/22-20:54:45.033 3b2e Level-0 table #345: 510 bytes OK
+2025/11/22-20:54:45.035 3b2e Delete type=0 #340
+2025/11/22-20:54:45.035 3b2e Manual compaction at level-0 from '\x00a\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00b\x00\x00\x00' @ 0 : 0; will stop at '\x00a\x00\x00\x05' @ 1808 : 1
+2025/11/22-20:54:45.035 3b2e Compacting 1@0 + 1@1 files
+2025/11/22-20:54:45.035 3b2e Generated table #346@0: 11 keys, 463 bytes
+2025/11/22-20:54:45.035 3b2e Compacted 1@0 + 1@1 files => 463 bytes
+2025/11/22-20:54:45.037 3b2e compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/11/22-20:54:45.037 3b2e Delete type=2 #345
+2025/11/22-20:54:45.037 3b2e Manual compaction at level-0 from '\x00a\x00\x00\x05' @ 1808 : 1 .. '\x00b\x00\x00\x00' @ 0 : 0; will stop at (end)

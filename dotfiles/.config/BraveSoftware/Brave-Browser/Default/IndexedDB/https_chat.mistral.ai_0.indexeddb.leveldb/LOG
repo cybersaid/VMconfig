@@ -1,0 +1,15 @@
+2025/11/23-11:15:50.573 3b2e Reusing MANIFEST /home/shadrix/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_chat.mistral.ai_0.indexeddb.leveldb/MANIFEST-000001
+2025/11/23-11:15:50.573 3b2e Recovering log #26
+2025/11/23-11:15:50.576 3b2e Reusing old log /home/shadrix/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_chat.mistral.ai_0.indexeddb.leveldb/000026.log 
+2025/11/23-11:16:29.243 3b31 Level-0 table #31: started
+2025/11/23-11:16:29.251 3b31 Level-0 table #31: 138940 bytes OK
+2025/11/23-11:16:29.254 3b31 Delete type=0 #26
+2025/11/23-11:16:29.254 3b31 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/23-11:16:29.254 3b31 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01 \x03\x00\xd0\xfch\x03\xabyB\x00\x017\x00c\x00r\x00o\x00s\x00s\x00-\x00o\x00r\x00i\x00g\x00i\x00n\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00w\x00i\x00d\x00g\x00e\x00t\x00.\x00i\x00n\x00t\x00e\x00r\x00c\x00o\x00m\x00.\x00i\x00o\x00/\x00w\x00i\x00d\x00g\x00e\x00t\x00/\x00x\x00e\x00l\x000\x00j\x00p\x00x\x009' @ 41383 : 1
+2025/11/23-11:16:29.255 3b31 Compacting 1@1 + 1@2 files
+2025/11/23-11:16:29.264 3b31 Generated table #32@1: 669 keys, 101770 bytes
+2025/11/23-11:16:29.264 3b31 Compacted 1@1 + 1@2 files => 101770 bytes
+2025/11/23-11:16:29.266 3b31 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/11/23-11:16:29.266 3b31 Delete type=2 #28
+2025/11/23-11:16:29.266 3b31 Delete type=2 #31
+2025/11/23-11:16:29.267 3b31 Manual compaction at level-1 from '\x00\x01\x01 \x03\x00\xd0\xfch\x03\xabyB\x00\x017\x00c\x00r\x00o\x00s\x00s\x00-\x00o\x00r\x00i\x00g\x00i\x00n\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00w\x00i\x00d\x00g\x00e\x00t\x00.\x00i\x00n\x00t\x00e\x00r\x00c\x00o\x00m\x00.\x00i\x00o\x00/\x00w\x00i\x00d\x00g\x00e\x00t\x00/\x00x\x00e\x00l\x000\x00j\x00p\x00x\x009' @ 41383 : 1 .. (end); will stop at (end)

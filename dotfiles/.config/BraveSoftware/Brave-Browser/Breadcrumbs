@@ -1,0 +1,63 @@
+8:40:10 Browser7 Switch from Tab73 to Tab71 at 10
+8:40:12 Accel_SelectPreviousTab
+8:40:12 SelectPrevTab
+8:40:12 Browser7 Switch from Tab71 to Tab73 at 9
+8:40:13 Accel_SelectPreviousTab
+8:40:13 SelectPrevTab
+8:40:13 Browser7 Switch from Tab73 to Tab70 at 8
+8:40:13 Media.Shown
+8:40:41 Widget Closed: StatusBubble
+8:44:21 NewTab
+8:44:21 Tab74 StartNav879 #ntp #typed
+8:44:21 UserEducation.MessageNotShown
+8:44:21 UserEducation.MessageNotShown.IPH_DiscardRing
+8:44:21 UserEducation.MessageNotShown.PermanentlyDismissed
+8:44:21 UserEducation.MessageNotShown
+8:44:21 UserEducation.MessageNotShown.IPH_TabSearch
+8:44:21 UserEducation.MessageNotShown.FeatureDisabled
+8:44:21 Browser7 Insert active Tab74 at 11
+8:44:21 Media.Hidden
+8:44:21 Tab74 FinishNav879
+8:44:21 Tab74 PageLoad #ntp
+8:44:21 OmniboxInputInProgress
+8:44:23 Widget Closed: RoundedOmniboxResultsFrameWindow
+8:44:31 OmniboxDestinationURLIsSearchOnDSP
+8:44:31 LoadURL
+8:44:31 Tab74 StartNav880 #generated
+8:44:31 Widget Closed: RoundedOmniboxResultsFrameWindow
+8:44:32 Tab74 FinishNav880
+8:44:32 Tab74 PageLoad
+8:44:32 Tab74 StartNav881 #renderer-script #link
+8:44:32 Tab74 FinishNav881
+8:44:34 Tab74 StartNav882 #renderer-script #link
+8:44:34 Tab74 FinishNav882
+8:44:56 Widget Closed: StatusBubble
+8:45:28 Widget Closed: TooltipAura
+8:45:31 Tab74 StartNav883 #renderer-user #link
+8:45:31 Tab74 FinishNav883
+8:45:32 Tab74 PageLoad
+8:45:46 TextSelectionChanged
+8:45:48 TextSelectionChanged
+8:45:48 TextSelectionChanged
+8:45:48 TextSelectionChanged
+8:45:48 TextSelectionChanged
+8:45:48 TextSelectionChanged
+8:45:48 TextSelectionChanged
+8:45:48 TextSelectionChanged
+8:45:48 TextSelectionChanged
+8:45:48 TextSelectionChanged
+8:45:49 TextSelectionChanged
+8:45:49 TextSelectionChanged
+8:45:49 TextSelectionChanged
+8:45:49 TextSelectionChanged
+8:45:49 TextSelectionChanged
+8:45:49 TextSelectionChanged
+8:45:49 TextSelectionChanged
+8:45:50 TextSelectionChanged
+8:45:50 TextSelectionChanged
+8:45:50 TextSelectionChanged
+8:45:50 TextSelectionChanged
+8:45:51 TextSelectionChanged
+8:45:51 Widget Closed: StatusBubble
+8:46:01 ClearBrowsingData_MaskContainsProtectedWeb
+8:48:40 Widget Closed: StatusBubble
