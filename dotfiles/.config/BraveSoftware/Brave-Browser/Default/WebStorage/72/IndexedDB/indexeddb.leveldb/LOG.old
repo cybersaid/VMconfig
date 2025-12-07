@@ -1,0 +1,33 @@
+2025/12/03-09:40:05.894 1348 Reusing MANIFEST /home/shadrix/.config/BraveSoftware/Brave-Browser/Default/WebStorage/72/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2025/12/03-09:40:05.895 1348 Recovering log #7
+2025/12/03-09:40:05.895 1348 Reusing old log /home/shadrix/.config/BraveSoftware/Brave-Browser/Default/WebStorage/72/IndexedDB/indexeddb.leveldb/000007.log 
+2025/12/03-09:40:05.898 135a Level-0 table #11: started
+2025/12/03-09:40:05.899 135a Level-0 table #11: 549 bytes OK
+2025/12/03-09:40:05.901 135a Delete type=0 #7
+2025/12/03-09:40:05.902 1346 Manual compaction at level-0 from '\x00\x03\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at '\x00\x03\x00\x00\x05' @ 43 : 1
+2025/12/03-09:40:05.902 1346 Compacting 1@0 + 1@1 files
+2025/12/03-09:40:05.902 1346 Generated table #12@0: 7 keys, 503 bytes
+2025/12/03-09:40:05.902 1346 Compacted 1@0 + 1@1 files => 503 bytes
+2025/12/03-09:40:05.904 1346 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/12/03-09:40:05.904 1346 Delete type=2 #11
+2025/12/03-09:40:05.904 1346 Manual compaction at level-0 from '\x00\x03\x00\x00\x05' @ 43 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/03-09:40:07.912 1348 Level-0 table #14: started
+2025/12/03-09:40:07.915 1348 Level-0 table #14: 230 bytes OK
+2025/12/03-09:40:07.918 1348 Delete type=2 #8
+2025/12/03-09:40:07.918 1348 Delete type=0 #10
+2025/12/03-09:40:07.918 1348 Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x00\x00\x002\x02\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00' @ 56 : 0
+2025/12/03-09:40:07.918 1348 Compacting 1@0 + 1@1 files
+2025/12/03-09:40:07.919 1348 Generated table #15@0: 8 keys, 507 bytes
+2025/12/03-09:40:07.919 1348 Compacted 1@0 + 1@1 files => 507 bytes
+2025/12/03-09:40:07.921 1348 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/12/03-09:40:07.921 1348 Delete type=2 #12
+2025/12/03-09:40:07.921 1348 Delete type=2 #14
+2025/12/03-09:40:07.921 1348 Manual compaction at level-0 from '\x00\x00\x00\x002\x02\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00' @ 56 : 0 .. (end); will stop at (end)
+2025/12/03-09:40:07.921 1348 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\xc9\x1c\x00h\x00t\x00t\x00p\x00s\x00_\x00o\x00u\x00t\x00l\x00o\x00o\x00k\x00.\x00o\x00f\x00f\x00i\x00c\x00e\x00.\x00c\x00o\x00m\x00_\x000\x00@\x001\x17\x00o\x00w\x00a\x00-\x00o\x00f\x00f\x00l\x00i\x00n\x00e\x00-\x00s\x00y\x00s\x00t\x00e\x00m\x00-\x00d\x00a\x00t\x00a' @ 46 : 0
+2025/12/03-09:40:07.921 1348 Compacting 1@1 + 1@2 files
+2025/12/03-09:40:07.922 1348 Generated table #16@1: 5 keys, 237 bytes
+2025/12/03-09:40:07.922 1348 Compacted 1@1 + 1@2 files => 237 bytes
+2025/12/03-09:40:07.923 1348 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/12/03-09:40:07.924 1348 Delete type=2 #5
+2025/12/03-09:40:07.924 1348 Delete type=2 #15
+2025/12/03-09:40:07.924 1348 Manual compaction at level-1 from '\x00\x00\x00\x00\xc9\x1c\x00h\x00t\x00t\x00p\x00s\x00_\x00o\x00u\x00t\x00l\x00o\x00o\x00k\x00.\x00o\x00f\x00f\x00i\x00c\x00e\x00.\x00c\x00o\x00m\x00_\x000\x00@\x001\x17\x00o\x00w\x00a\x00-\x00o\x00f\x00f\x00l\x00i\x00n\x00e\x00-\x00s\x00y\x00s\x00t\x00e\x00m\x00-\x00d\x00a\x00t\x00a' @ 46 : 0 .. (end); will stop at (end)

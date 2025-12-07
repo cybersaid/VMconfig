@@ -24,8 +24,8 @@ if [ -d "$CUSTOM_DIR/icons" ]; then
 fi
 
 # Applique le thème et les icônes (pour GNOME)
-gsettings set org.gnome.desktop.interface gtk-theme "MyTheme"
-gsettings set org.gnome.desktop.interface icon-theme "MyIcons"
+gsettings set org.gnome.desktop.interface gtk-theme "Flat-Remix-GTK-Blue-Dark"
+gsettings set org.gnome.desktop.interface icon-theme "Flat-Remix-GTK-Blue-Dark"
 gsettings set org.gnome.desktop.interface font-name "JetBrains Mono 11"
 
 # Configure le fond d'écran

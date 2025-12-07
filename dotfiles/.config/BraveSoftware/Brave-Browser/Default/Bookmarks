@@ -1,5 +1,5 @@
 {
-   "checksum": "0446c5a9f6ecef16001474c223ec4058",
+   "checksum": "27f87d36068aaeb46b436139f8291ac8",
    "roots": {
       "bookmark_bar": {
          "children": [ {
@@ -366,7 +366,7 @@
             "url": "https://invvest.co/dashboard"
          }, {
             "date_added": "13405781904351853",
-            "date_last_used": "0",
+            "date_last_used": "13409252995333046",
             "guid": "0e3f460d-bb77-4bc9-b2c0-bbf30d0b4ce4",
             "id": "46",
             "meta_info": {
@@ -386,10 +386,32 @@
             "name": "Keybinds & IPC | Dank Linux",
             "type": "url",
             "url": "https://danklinux.com/docs/dankmaterialshell/keybinds-ipc#keybinds"
+         }, {
+            "date_added": "13408373560057517",
+            "date_last_used": "13408374348041038",
+            "guid": "e302bf85-9e3d-4956-92ae-0884f3fcd8d2",
+            "id": "115",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Layout - niri",
+            "type": "url",
+            "url": "https://yalter.github.io/niri/Configuration%3A-Layout.html#shadow"
+         }, {
+            "date_added": "13409229371496957",
+            "date_last_used": "0",
+            "guid": "2061d2be-db30-4b69-881f-605ed4ce6619",
+            "id": "117",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "kSuite - Outils collaboratifs - Infomaniak",
+            "type": "url",
+            "url": "https://manager.infomaniak.com/v3/1129828/ng/products/ksuite/ksuite"
          } ],
          "date_added": "13407325800041706",
          "date_last_used": "0",
-         "date_modified": "13408206085676866",
+         "date_modified": "13409247864628862",
          "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
          "id": "1",
          "name": "Bookmarks",

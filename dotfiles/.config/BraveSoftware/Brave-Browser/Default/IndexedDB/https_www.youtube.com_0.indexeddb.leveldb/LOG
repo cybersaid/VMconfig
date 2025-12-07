@@ -1,3 +1,6 @@
-2025/11/22-21:02:35.198 3b2e Reusing MANIFEST /home/shadrix/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/11/22-21:02:35.198 3b2e Recovering log #130
-2025/11/22-21:02:35.202 3b2e Reusing old log /home/shadrix/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000130.log 
+2025/12/04-10:49:17.781 1346 Reusing MANIFEST /home/shadrix/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/12/04-10:49:17.781 1346 Recovering log #166
+2025/12/04-10:49:17.784 1346 Reusing old log /home/shadrix/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000166.log 
+2025/12/04-11:19:59.627 1365 Level-0 table #171: started
+2025/12/04-11:19:59.655 1365 Level-0 table #171: 1691723 bytes OK
+2025/12/04-11:19:59.661 1365 Delete type=0 #166

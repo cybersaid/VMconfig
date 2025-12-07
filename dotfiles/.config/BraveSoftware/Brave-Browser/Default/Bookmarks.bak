@@ -1,5 +1,5 @@
 {
-   "checksum": "c08fd97d5f1bc17b54065f736c9eab52",
+   "checksum": "b6dabb43630a0cfd68c7dbc2b42fac0b",
    "roots": {
       "bookmark_bar": {
          "children": [ {
@@ -292,39 +292,6 @@
             "name": "gaming",
             "type": "folder"
          }, {
-            "date_added": "13368108106519598",
-            "date_last_used": "13369937426357109",
-            "guid": "67ab9748-6329-423b-ba21-2d89b921dfcd",
-            "id": "40",
-            "meta_info": {
-               "power_bookmark_meta": ""
-            },
-            "name": "LYON : Espace Personnel",
-            "type": "url",
-            "url": "https://www.ucpa.com/aqua-stadium/espacepersonnel/lyon/accueil"
-         }, {
-            "date_added": "13389027469067116",
-            "date_last_used": "0",
-            "guid": "7e540f28-3672-41e8-8f46-a6b18cc4de98",
-            "id": "41",
-            "meta_info": {
-               "power_bookmark_meta": ""
-            },
-            "name": "Dashboard - Invvest",
-            "type": "url",
-            "url": "https://invvest.co/dashboard"
-         }, {
-            "date_added": "13404561518699764",
-            "date_last_used": "0",
-            "guid": "d487c412-d1d5-4893-a4e6-9c733ec45548",
-            "id": "42",
-            "meta_info": {
-               "power_bookmark_meta": ""
-            },
-            "name": "Batterie ordinateur portable Lenovo LEGION SLIM 7 16IRH8-82Y30016BM - LaptopBatterie.fr",
-            "type": "url",
-            "url": "https://www.laptopbatterie.fr/lenovo-batterie/batterie-portable-lenovo-legion-slim-7-16irh8-82y30016bm.htm"
-         }, {
             "children": [ {
                "date_added": "13405339929038734",
                "date_last_used": "0",
@@ -355,17 +322,6 @@
             "id": "43",
             "name": "Bébé",
             "type": "folder"
-         }, {
-            "date_added": "13405781904351853",
-            "date_last_used": "0",
-            "guid": "0e3f460d-bb77-4bc9-b2c0-bbf30d0b4ce4",
-            "id": "46",
-            "meta_info": {
-               "power_bookmark_meta": ""
-            },
-            "name": "Portail BC-RMA",
-            "type": "url",
-            "url": "https://bc-rma.consultants-solutec.fr/UI/AccueilsMenu_Pages/Accueil.aspx"
          }, {
             "children": [ {
                "date_added": "13364595286611852",
@@ -398,8 +354,30 @@
             "name": "Data",
             "type": "folder"
          }, {
-            "date_added": "13408057462980495",
+            "date_added": "13389027469067116",
             "date_last_used": "0",
+            "guid": "7e540f28-3672-41e8-8f46-a6b18cc4de98",
+            "id": "41",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Dashboard - Invvest",
+            "type": "url",
+            "url": "https://invvest.co/dashboard"
+         }, {
+            "date_added": "13405781904351853",
+            "date_last_used": "13409050988331301",
+            "guid": "0e3f460d-bb77-4bc9-b2c0-bbf30d0b4ce4",
+            "id": "46",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Portail BC-RMA",
+            "type": "url",
+            "url": "https://bc-rma.consultants-solutec.fr/UI/AccueilsMenu_Pages/Accueil.aspx"
+         }, {
+            "date_added": "13408057462980495",
+            "date_last_used": "13408192204379926",
             "guid": "66450971-01c7-4315-a7bd-565f983b2d47",
             "id": "113",
             "meta_info": {
@@ -409,20 +387,20 @@
             "type": "url",
             "url": "https://danklinux.com/docs/dankmaterialshell/keybinds-ipc#keybinds"
          }, {
-            "date_added": "13408109946338936",
-            "date_last_used": "0",
-            "guid": "fdae3a7d-4bbb-442e-8a0b-88162115c4dd",
+            "date_added": "13408373560057517",
+            "date_last_used": "13408374348041038",
+            "guid": "e302bf85-9e3d-4956-92ae-0884f3fcd8d2",
             "id": "115",
             "meta_info": {
                "power_bookmark_meta": ""
             },
-            "name": "dec",
+            "name": "Layout - niri",
             "type": "url",
-            "url": "https://danklinux.com/docs/dankmaterialshell/compositors?_highlight=opacity#window-rules"
+            "url": "https://yalter.github.io/niri/Configuration%3A-Layout.html#shadow"
          } ],
          "date_added": "13407325800041706",
          "date_last_used": "0",
-         "date_modified": "13408109946338936",
+         "date_modified": "13408373560057517",
          "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
          "id": "1",
          "name": "Bookmarks",
@@ -752,48 +730,6 @@
             "type": "folder"
          }, {
             "children": [ {
-               "date_added": "13323208807602809",
-               "date_last_used": "0",
-               "guid": "a39292d9-788d-43d0-a4cc-218528c0af72",
-               "id": "77",
-               "meta_info": {
-                  "power_bookmark_meta": ""
-               },
-               "name": "www.crv-losc.fr/equipes-resultats.html",
-               "type": "url",
-               "url": "http://www.crv-losc.fr/equipes-resultats.html"
-            }, {
-               "date_added": "13323208875184274",
-               "date_last_used": "0",
-               "guid": "ca971c17-52cf-4ba9-a7a2-69eee1da4435",
-               "id": "78",
-               "meta_info": {
-                  "power_bookmark_meta": ""
-               },
-               "name": "EQUIPES - ASUL LYON VOLLEY",
-               "type": "url",
-               "url": "https://www.asulvolley.com/equipes/"
-            }, {
-               "date_added": "13323209169063051",
-               "date_last_used": "0",
-               "guid": "823f9e92-b98f-4bab-b0ad-dcb0d4a7dd2f",
-               "id": "79",
-               "meta_info": {
-                  "power_bookmark_meta": ""
-               },
-               "name": "Contactez Vball, club de volley-ball à Bron et à Lyon",
-               "type": "url",
-               "url": "https://vball-leclub.org/contact-volley-bron-lyon/"
-            } ],
-            "date_added": "13323208826325324",
-            "date_last_used": "0",
-            "date_modified": "13323209169063051",
-            "guid": "2d07d390-ffef-4a2b-a754-3765cf9de5b8",
-            "id": "76",
-            "name": "volley",
-            "type": "folder"
-         }, {
-            "children": [ {
                "children": [ {
                   "date_added": "13322671250632320",
                   "date_last_used": "0",
@@ -847,39 +783,6 @@
                "type": "url",
                "url": "https://www.cloudflare.com/fr-fr/learning/access-management/what-is-access-control/"
             }, {
-               "date_added": "13325265330214258",
-               "date_last_used": "0",
-               "guid": "a032edbb-a7b4-49ce-a826-bf7805436280",
-               "id": "86",
-               "meta_info": {
-                  "power_bookmark_meta": ""
-               },
-               "name": "Chmod et Chown, les droits sous GNU/Linux - Les Hirondelles du Net",
-               "type": "url",
-               "url": "https://www.leshirondellesdunet.com/chmod-et-chown"
-            }, {
-               "date_added": "13325462858398688",
-               "date_last_used": "0",
-               "guid": "84ef4d91-ea56-4c3b-bfdc-0d5b5d15f8e6",
-               "id": "87",
-               "meta_info": {
-                  "power_bookmark_meta": ""
-               },
-               "name": "VirtualBox Images",
-               "type": "url",
-               "url": "https://www.osboxes.org/virtualbox-images/"
-            }, {
-               "date_added": "13333379965884929",
-               "date_last_used": "0",
-               "guid": "22f9bb95-f9b0-454e-bdf4-cb8bbd3accf6",
-               "id": "88",
-               "meta_info": {
-                  "power_bookmark_meta": ""
-               },
-               "name": "Convert hexadecimal to text - Converters",
-               "type": "url",
-               "url": "http://www.unit-conversion.info/texttools/hexadecimal/"
-            }, {
                "date_added": "13334879821929439",
                "date_last_used": "0",
                "guid": "b9665859-5e7c-4f8d-bf99-f08c0e651e68",
@@ -922,28 +825,6 @@
             "type": "folder"
          }, {
             "children": [ {
-               "date_added": "13327492769396600",
-               "date_last_used": "0",
-               "guid": "1d0891ff-90d9-423c-88f5-01ceb02dec0d",
-               "id": "93",
-               "meta_info": {
-                  "power_bookmark_meta": ""
-               },
-               "name": "Shreddage 3 Stratus FREE (VST, AU, AAX) Virtual Guitar Instrument for Kontakt",
-               "type": "url",
-               "url": "https://impactsoundworks.com/product/shreddage-3-stratus-free/"
-            }, {
-               "date_added": "13327492802079845",
-               "date_last_used": "0",
-               "guid": "0911fd73-a968-4630-9658-306639ecdcf9",
-               "id": "94",
-               "meta_info": {
-                  "power_bookmark_meta": ""
-               },
-               "name": "Kilohearts Essentials - Over 30 FREE Effects Plugins",
-               "type": "url",
-               "url": "https://kilohearts.com/products/kilohearts_essentials"
-            }, {
                "date_added": "13327492927083419",
                "date_last_used": "13361361448695522",
                "guid": "3cadee86-61ab-4c0e-95aa-bb9e7a49eff2",
@@ -976,39 +857,6 @@
                "name": "PianoShow.me - show your chords, notes, scales on a piano chart",
                "type": "url",
                "url": "https://pianoshow.me/about"
-            }, {
-               "date_added": "13360703642359688",
-               "date_last_used": "0",
-               "guid": "93dcf793-689f-410e-aa05-17fcfe52561e",
-               "id": "98",
-               "meta_info": {
-                  "power_bookmark_meta": ""
-               },
-               "name": "ULTIMATE GUITAR TABS - 1,100,000 songs catalog with free Chords, Guitar Tabs, Bass Tabs, Ukulele Chords and Guitar Pro Tabs!",
-               "type": "url",
-               "url": "https://www.ultimate-guitar.com/"
-            }, {
-               "date_added": "13361361428192906",
-               "date_last_used": "0",
-               "guid": "44bfe926-303f-4a98-9186-d739e3e4ecf0",
-               "id": "99",
-               "meta_info": {
-                  "power_bookmark_meta": ""
-               },
-               "name": "VST Plugins, Synth Presets, Effects, Virtual Instruments, Music",
-               "type": "url",
-               "url": "https://www.pluginboutique.com/"
-            }, {
-               "date_added": "13374244109094655",
-               "date_last_used": "0",
-               "guid": "7a8b02b5-4058-4425-86fb-10b00b08eae6",
-               "id": "100",
-               "meta_info": {
-                  "power_bookmark_meta": ""
-               },
-               "name": "Chord Ace - Piano and Music Theory Online Teaching Tool - See Chords as You Play Them",
-               "type": "url",
-               "url": "https://chordace.com/"
             } ],
             "date_added": "13327492783872298",
             "date_last_used": "0",

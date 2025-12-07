@@ -8,3 +8,10 @@ sudo dnf install -y \
     corectrl \
     kitty \
     zsh
+    aajohan-comfortaa-fonts \
+    aardvark-dns \
+    abrt \
+    abrt-addon-ccpp \
+    abrt-addon-xorg \
+    geany \
+    Box2D

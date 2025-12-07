@@ -1,0 +1,18 @@
+2025/11/23-20:52:30.103 3b2e Creating DB /home/shadrix/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.notion.so_0.indexeddb.leveldb since it was missing.
+2025/11/23-20:52:30.106 3b2e Reusing MANIFEST /home/shadrix/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/MANIFEST-000001
+2025/11/23-20:52:30.927 3b2e Level-0 table #5: started
+2025/11/23-20:52:30.928 3b2e Level-0 table #5: 2173 bytes OK
+2025/11/23-20:52:30.930 3b2e Delete type=0 #3
+2025/11/23-20:52:30.930 3b2e Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/11/23-20:55:11.972 3b31 Level-0 table #7: started
+2025/11/23-20:55:11.976 3b31 Level-0 table #7: 46592 bytes OK
+2025/11/23-20:55:11.978 3b31 Delete type=0 #4
+2025/11/23-20:55:11.979 3b31 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/11/23-20:55:11.979 3b31 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x02"\x01$\x000\x000\x008\x00b\x00a\x003\x008\x001\x00-\x008\x003\x00e\x00a\x00-\x004\x00d\x007\x000\x00-\x00a\x008\x005\x00a\x00-\x00c\x005\x004\x007\x001\x001\x000\x005\x00b\x00e\x000\x006\x00\x03\x00\x00\x00\x00\x00\x00.@' @ 1155 : 1
+2025/11/23-20:55:11.979 3b31 Compacting 1@1 + 1@2 files
+2025/11/23-20:55:11.981 3b31 Generated table #8@1: 102 keys, 2742 bytes
+2025/11/23-20:55:11.982 3b31 Compacted 1@1 + 1@2 files => 2742 bytes
+2025/11/23-20:55:11.984 3b31 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/11/23-20:55:11.984 3b31 Delete type=2 #5
+2025/11/23-20:55:11.984 3b31 Delete type=2 #7
+2025/11/23-20:55:11.985 3b31 Manual compaction at level-1 from '\x00\x02\x02"\x01$\x000\x000\x008\x00b\x00a\x003\x008\x001\x00-\x008\x003\x00e\x00a\x00-\x004\x00d\x007\x000\x00-\x00a\x008\x005\x00a\x00-\x00c\x005\x004\x007\x001\x001\x000\x005\x00b\x00e\x000\x006\x00\x03\x00\x00\x00\x00\x00\x00.@' @ 1155 : 1 .. (end); will stop at (end)

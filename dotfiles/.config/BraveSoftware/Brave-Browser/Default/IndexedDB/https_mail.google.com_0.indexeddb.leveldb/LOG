@@ -1,12 +1,21 @@
-2025/11/22-18:09:36.567 3b2e Reusing MANIFEST /home/shadrix/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/11/22-18:09:36.568 3b2e Recovering log #19
-2025/11/22-18:09:36.570 3b2e Reusing old log /home/shadrix/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000019.log 
-2025/11/22-18:09:38.165 3b2e Compacting 1@1 + 1@2 files
-2025/11/22-18:09:38.175 3b2e Generated table #22@1: 174 keys, 749641 bytes
-2025/11/22-18:09:38.175 3b2e Compacted 1@1 + 1@2 files => 749641 bytes
-2025/11/22-18:09:38.176 3b2e compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/11/22-18:09:38.177 3b2e Delete type=2 #18
-2025/11/22-18:09:38.177 3b2e Delete type=2 #20
-2025/11/22-18:09:49.467 3b31 Level-0 table #24: started
-2025/11/22-18:09:49.508 3b31 Level-0 table #24: 3230349 bytes OK
-2025/11/22-18:09:49.511 3b31 Delete type=0 #19
+2025/12/04-13:31:35.717 1346 Reusing MANIFEST /home/shadrix/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/12/04-13:31:35.717 1346 Recovering log #62
+2025/12/04-13:31:35.721 1346 Reusing old log /home/shadrix/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000062.log 
+2025/12/04-13:31:38.431 1348 Compacting 1@1 + 1@2 files
+2025/12/04-13:31:38.455 1348 Generated table #66@1: 130 keys, 424657 bytes
+2025/12/04-13:31:38.455 1348 Compacted 1@1 + 1@2 files => 424657 bytes
+2025/12/04-13:31:38.458 1348 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/12/04-13:31:38.458 1348 Delete type=2 #59
+2025/12/04-13:31:38.458 1348 Delete type=2 #64
+2025/12/04-13:31:53.415 1348 Level-0 table #68: started
+2025/12/04-13:31:53.480 1348 Level-0 table #68: 3119102 bytes OK
+2025/12/04-13:31:53.483 1348 Delete type=0 #62
+2025/12/04-13:33:31.846 1346 Compacting 1@1 + 1@2 files
+2025/12/04-13:33:31.887 1346 Generated table #69@1: 272 keys, 1394694 bytes
+2025/12/04-13:33:31.887 1346 Compacted 1@1 + 1@2 files => 1394694 bytes
+2025/12/04-13:33:31.890 1346 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/12/04-13:33:31.890 1346 Delete type=2 #66
+2025/12/04-13:33:31.891 1346 Delete type=2 #68
+2025/12/04-13:33:33.286 1346 Level-0 table #71: started
+2025/12/04-13:33:33.333 1346 Level-0 table #71: 3210738 bytes OK
+2025/12/04-13:33:33.336 1346 Delete type=0 #67

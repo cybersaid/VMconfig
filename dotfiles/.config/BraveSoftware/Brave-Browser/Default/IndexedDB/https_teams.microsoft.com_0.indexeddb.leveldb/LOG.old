@@ -1,0 +1,21 @@
+2025/12/02-09:39:38.383 13ad Reusing MANIFEST /home/shadrix/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_teams.microsoft.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/12/02-09:39:38.384 13ad Recovering log #104
+2025/12/02-09:39:38.397 13ad Reusing old log /home/shadrix/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_teams.microsoft.com_0.indexeddb.leveldb/000104.log 
+2025/12/02-09:39:39.152 13ad Compacting 1@1 + 3@2 files
+2025/12/02-09:39:39.196 13ad Generated table #113@1: 3475 keys, 2124447 bytes
+2025/12/02-09:39:39.239 13ad Generated table #114@1: 909 keys, 2145258 bytes
+2025/12/02-09:39:39.284 13ad Generated table #115@1: 775 keys, 2144142 bytes
+2025/12/02-09:39:39.335 13ad Generated table #116@1: 10129 keys, 1959031 bytes
+2025/12/02-09:39:39.335 13ad Compacted 1@1 + 3@2 files => 8372878 bytes
+2025/12/02-09:39:39.337 13ad compacted to: files[ 0 6 5 0 0 0 0 ]
+2025/12/02-09:39:39.337 13ad Delete type=2 #52
+2025/12/02-09:39:39.337 13ad Delete type=2 #53
+2025/12/02-09:39:39.337 13ad Delete type=2 #54
+2025/12/02-09:39:39.337 13ad Delete type=2 #108
+2025/12/02-09:39:42.533 13ad Compacting 1@1 + 1@2 files
+2025/12/02-09:39:42.582 13ad Generated table #117@1: 2157 keys, 2119281 bytes
+2025/12/02-09:39:42.611 13ad Generated table #118@1: 3358 keys, 2012680 bytes
+2025/12/02-09:39:42.611 13ad Compacted 1@1 + 1@2 files => 4131961 bytes
+2025/12/02-09:39:42.613 13ad compacted to: files[ 0 5 6 0 0 0 0 ]
+2025/12/02-09:39:42.613 13ad Delete type=2 #107
+2025/12/02-09:39:42.613 13ad Delete type=2 #113

@@ -1,63 +1,73 @@
-8:40:10 Browser7 Switch from Tab73 to Tab71 at 10
-8:40:12 Accel_SelectPreviousTab
-8:40:12 SelectPrevTab
-8:40:12 Browser7 Switch from Tab71 to Tab73 at 9
-8:40:13 Accel_SelectPreviousTab
-8:40:13 SelectPrevTab
-8:40:13 Browser7 Switch from Tab73 to Tab70 at 8
-8:40:13 Media.Shown
-8:40:41 Widget Closed: StatusBubble
-8:44:21 NewTab
-8:44:21 Tab74 StartNav879 #ntp #typed
-8:44:21 UserEducation.MessageNotShown
-8:44:21 UserEducation.MessageNotShown.IPH_DiscardRing
-8:44:21 UserEducation.MessageNotShown.PermanentlyDismissed
-8:44:21 UserEducation.MessageNotShown
-8:44:21 UserEducation.MessageNotShown.IPH_TabSearch
-8:44:21 UserEducation.MessageNotShown.FeatureDisabled
-8:44:21 Browser7 Insert active Tab74 at 11
-8:44:21 Media.Hidden
-8:44:21 Tab74 FinishNav879
-8:44:21 Tab74 PageLoad #ntp
-8:44:21 OmniboxInputInProgress
-8:44:23 Widget Closed: RoundedOmniboxResultsFrameWindow
-8:44:31 OmniboxDestinationURLIsSearchOnDSP
-8:44:31 LoadURL
-8:44:31 Tab74 StartNav880 #generated
-8:44:31 Widget Closed: RoundedOmniboxResultsFrameWindow
-8:44:32 Tab74 FinishNav880
-8:44:32 Tab74 PageLoad
-8:44:32 Tab74 StartNav881 #renderer-script #link
-8:44:32 Tab74 FinishNav881
-8:44:34 Tab74 StartNav882 #renderer-script #link
-8:44:34 Tab74 FinishNav882
-8:44:56 Widget Closed: StatusBubble
-8:45:28 Widget Closed: TooltipAura
-8:45:31 Tab74 StartNav883 #renderer-user #link
-8:45:31 Tab74 FinishNav883
-8:45:32 Tab74 PageLoad
-8:45:46 TextSelectionChanged
-8:45:48 TextSelectionChanged
-8:45:48 TextSelectionChanged
-8:45:48 TextSelectionChanged
-8:45:48 TextSelectionChanged
-8:45:48 TextSelectionChanged
-8:45:48 TextSelectionChanged
-8:45:48 TextSelectionChanged
-8:45:48 TextSelectionChanged
-8:45:48 TextSelectionChanged
-8:45:49 TextSelectionChanged
-8:45:49 TextSelectionChanged
-8:45:49 TextSelectionChanged
-8:45:49 TextSelectionChanged
-8:45:49 TextSelectionChanged
-8:45:49 TextSelectionChanged
-8:45:49 TextSelectionChanged
-8:45:50 TextSelectionChanged
-8:45:50 TextSelectionChanged
-8:45:50 TextSelectionChanged
-8:45:50 TextSelectionChanged
-8:45:51 TextSelectionChanged
-8:45:51 Widget Closed: StatusBubble
-8:46:01 ClearBrowsingData_MaskContainsProtectedWeb
-8:48:40 Widget Closed: StatusBubble
+11:05:53 Tab86 PageLoad
+11:05:53 Tab86 PageLoad
+11:05:58 Tab86 StartNav1387 #renderer-user #link
+11:05:58 Tab86 FinishNav1387
+11:05:58 Tab86 StartNav1388 #renderer-script #link
+11:05:58 Tab86 FinishNav1388
+11:06:00 PasswordManager_LoginPassed
+11:06:00 Tab86 PageLoad
+11:06:02 Widget Closed: PasswordSaveUpdateView
+11:06:02 Widget Closed: StatusBubble
+11:06:02 Browser1 Switch from Tab86 to Tab85 at 9
+11:06:02 SwitchTab_Click
+11:06:02 Widget Closed: TabHoverCardBubbleView_ChromiumImpl
+11:06:04 Tab85 StartNav1389 #renderer-user #link
+11:06:04 Tab85 FinishNav1389
+11:06:09 ClearBrowsingData_MaskContainsProtectedWeb
+11:06:10 Reload
+11:06:10 Tab85 StartNav1390 #reload
+11:06:10 Tab85 FinishNav1390
+11:06:10 Tab85 StartNav1391 #renderer-script #auto_subframe
+11:06:11 Tab85 FinishNav1391
+11:06:11 Tab85 StartNav1392 #renderer-script #auto_subframe
+11:06:11 Tab85 FinishNav1392
+11:06:11 Tab85 PageLoad
+11:06:12 Tab85 StartNav1393 #renderer-script #link
+11:06:12 Tab85 FinishNav1393
+11:06:12 Tab85 PageLoad #failure
+11:06:12 Tab85 StartNav1394 #renderer-script #auto_subframe
+11:06:12 Tab85 FinishNav1394
+11:06:12 Tab85 PageLoad
+11:06:15 Tab85 StartNav1395 #renderer-script #auto_subframe
+11:06:15 Tab85 FinishNav1395
+11:06:15 Tab85 PageLoad
+11:06:15 Tab85 PageLoad
+11:06:15 Tab85 StartNav1396 #renderer-script #auto_subframe
+11:06:16 Tab85 FinishNav1396
+11:06:16 Tab85 PageLoad
+11:06:16 Tab85 StartNav1397 #renderer-script #auto_subframe
+11:06:16 Tab85 FinishNav1397
+11:06:16 Tab85 StartNav1398 #renderer-script #auto_subframe
+11:06:16 Tab85 FinishNav1398
+11:06:17 Tab85 PageLoad
+11:06:19 Widget Closed: StatusBubble
+11:06:26 Tab85 StartNav1399 #renderer-script #auto_subframe
+11:06:26 Tab85 FinishNav1399
+11:06:26 Tab85 PageLoad
+11:06:26 Tab85 StartNav1400 #renderer-script #auto_subframe
+11:06:26 Tab85 FinishNav1400
+11:06:26 Tab85 PageLoad
+11:06:33 Browser1 Switch from Tab85 to Tab86 at 10
+11:06:33 SwitchTab_Click
+11:06:37 TextSelectionChanged
+11:06:37 TextSelectionChanged
+11:06:37 TextSelectionChanged
+11:06:38 TextSelectionChanged
+11:06:38 TextSelectionChanged
+11:06:38 TextSelectionChanged
+11:06:40 TextSelectionChanged
+11:06:45 Tab86 StartNav1401 #renderer-user #link
+11:06:45 Tab86 FinishNav1401
+11:06:45 Tab86 PageLoad
+11:06:46 Tab86 StartNav1402 #renderer-script #link
+11:06:46 Tab86 FinishNav1402
+11:06:47 Tab86 StartNav1403 #renderer-script #link
+11:06:47 Tab86 FinishNav1403
+11:07:02 TextSelectionChanged
+11:07:06 Tab86 StartNav1404 #renderer-user #link
+11:07:06 Tab86 FinishNav1404
+11:07:10 TextSelectionChanged
+11:07:14 TextSelectionChanged
+11:07:16 Widget Closed: StatusBubble
+11:07:30 TextSelectionChanged
+11:07:39 Widget Closed: StatusBubble
