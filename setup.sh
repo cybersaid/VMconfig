@@ -1,4 +1,6 @@
 #!/bin/bash
+chmod +x scripts/*.sh
+
 set -e
 
 echo "Début de la configuration de la session..."

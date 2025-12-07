@@ -1,0 +1,6 @@
+2025/12/03-12:16:01.549 1346 Creating DB /home/shadrix/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_vedantbaghel007.medium.com_0.indexeddb.leveldb since it was missing.
+2025/12/03-12:16:01.552 1346 Reusing MANIFEST /home/shadrix/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_vedantbaghel007.medium.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/12/03-12:16:31.749 1348 Level-0 table #5: started
+2025/12/03-12:16:31.751 1348 Level-0 table #5: 19773 bytes OK
+2025/12/03-12:16:31.753 1348 Delete type=0 #3
+2025/12/03-12:16:31.753 1348 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

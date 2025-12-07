@@ -1,0 +1,13 @@
+2025/12/04-11:30:17.181 1346 Reusing MANIFEST /home/shadrix/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_identity.kodekloud.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/12/04-11:30:17.181 1346 Recovering log #10
+2025/12/04-11:30:17.181 1346 Reusing old log /home/shadrix/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_identity.kodekloud.com_0.indexeddb.leveldb/000010.log 
+2025/12/04-11:30:17.219 1346 Level-0 table #14: started
+2025/12/04-11:30:17.221 1346 Level-0 table #14: 6968 bytes OK
+2025/12/04-11:30:17.222 1346 Delete type=0 #10
+2025/12/04-11:30:17.223 135a Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at '\x00\x05\x00\x00\x05' @ 205 : 1
+2025/12/04-11:30:17.223 135a Compacting 1@0 + 1@1 files
+2025/12/04-11:30:17.224 135a Generated table #15@0: 24 keys, 1040 bytes
+2025/12/04-11:30:17.224 135a Compacted 1@0 + 1@1 files => 1040 bytes
+2025/12/04-11:30:17.225 135a compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/12/04-11:30:17.226 135a Delete type=2 #14
+2025/12/04-11:30:17.226 1346 Manual compaction at level-0 from '\x00\x05\x00\x00\x05' @ 205 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)

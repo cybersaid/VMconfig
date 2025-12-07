@@ -20,4 +20,14 @@
 /* You can manually change here or you can use rofi theme selector SUPER SHIFT E */
 
 
-@theme "~/.config/rofi/themes/KooL_style-4.rasi"
+//@theme "~/.config/rofi/themes/KooL_style-4.rasi"
+
+//@theme "/home/shadrix/.config/rofi/themes/KooL_style-8.rasi"
+
+//@theme "/home/shadrix/.config/rofi/themes/KooL_style-6.rasi"
+
+//@theme "/usr/share/rofi/themes/Monokai.rasi"
+
+//@theme "/usr/share/rofi/themes/sidebar-v2.rasi"
+
+@theme "/home/shadrix/.config/rofi/themes/KooL_style-5.rasi"

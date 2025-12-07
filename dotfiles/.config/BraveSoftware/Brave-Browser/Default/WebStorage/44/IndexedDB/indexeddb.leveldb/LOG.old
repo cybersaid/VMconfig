@@ -1,0 +1,15 @@
+2025/12/01-17:18:56.236 13c1 Reusing MANIFEST /home/shadrix/.config/BraveSoftware/Brave-Browser/Default/WebStorage/44/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2025/12/01-17:18:56.236 13c1 Recovering log #7
+2025/12/01-17:18:56.237 13c1 Reusing old log /home/shadrix/.config/BraveSoftware/Brave-Browser/Default/WebStorage/44/IndexedDB/indexeddb.leveldb/000007.log 
+2025/12/01-17:18:56.237 13c1 Delete type=2 #5
+2025/12/01-17:18:56.263 13c4 Level-0 table #12: started
+2025/12/01-17:18:56.264 13c4 Level-0 table #12: 10040 bytes OK
+2025/12/01-17:18:56.266 13c4 Delete type=0 #7
+2025/12/01-17:18:56.266 13c3 Manual compaction at level-0 from '\x00\x04\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/01-17:18:56.266 13c3 Manual compaction at level-1 from '\x00\x04\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at '\x00\x05\x00\x00\xc8\x11\x00L\x00o\x00g\x00s\x00R\x00e\x00q\x00u\x00e\x00s\x00t\x00s\x00S\x00t\x00o\x00r\x00e' @ 463 : 1
+2025/12/01-17:18:56.266 13c3 Compacting 1@1 + 1@2 files
+2025/12/01-17:18:56.267 13c3 Generated table #13@1: 42 keys, 1095 bytes
+2025/12/01-17:18:56.267 13c3 Compacted 1@1 + 1@2 files => 1095 bytes
+2025/12/01-17:18:56.268 13c3 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/12/01-17:18:56.269 13c3 Delete type=2 #12
+2025/12/01-17:18:56.269 13c3 Manual compaction at level-1 from '\x00\x05\x00\x00\xc8\x11\x00L\x00o\x00g\x00s\x00R\x00e\x00q\x00u\x00e\x00s\x00t\x00s\x00S\x00t\x00o\x00r\x00e' @ 463 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at (end)

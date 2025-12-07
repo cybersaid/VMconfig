@@ -4,9 +4,12 @@ flatpak install -y flathub \
     app.drey.Dialect \
     com.mattjakeman.ExtensionManager \
     com.valvesoftware.Steam \
+    com.valvesoftware.Steam.CompatibilityTool.Proton \
+    md.obsidian.Obsidian \
     io.github.congard.qnvsm \
     net.zdechov.app.x2048 \
     org.gtk.Gtk3theme.Flat-Remix-GTK-Blue-Dark \
     org.kde.WaylandDecoration.QAdwaitaDecorations \
-    com.sublimetext.three \
-    org.localsend.localsend_app
+    org.localsend.localsend_app \
+    org.onlyoffice.desktopeditors
+

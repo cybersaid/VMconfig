@@ -1,0 +1,7 @@
+2025/12/02-14:54:50.068 13ad Reusing MANIFEST /home/shadrix/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_tryhackme.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/12/02-14:54:50.069 13ad Recovering log #665
+2025/12/02-14:54:50.069 13ad Reusing old log /home/shadrix/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_tryhackme.com_0.indexeddb.leveldb/000665.log 
+2025/12/02-14:54:50.097 13ad Level-0 table #671: started
+2025/12/02-14:54:50.098 13ad Level-0 table #671: 482 bytes OK
+2025/12/02-14:54:50.099 13ad Delete type=0 #665
+2025/12/02-14:54:50.099 13ad Manual compaction at level-0 from '\x00\xc8\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\xc9\x00\x00\x00' @ 0 : 0; will stop at (end)
