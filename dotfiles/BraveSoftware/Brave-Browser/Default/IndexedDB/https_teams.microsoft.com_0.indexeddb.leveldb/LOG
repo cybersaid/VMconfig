@@ -1,0 +1,90 @@
+2025/12/16-10:02:50.969 12ab Reusing MANIFEST /home/shadrix/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_teams.microsoft.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/12/16-10:02:50.970 12ab Recovering log #657
+2025/12/16-10:02:50.970 12ab Reusing old log /home/shadrix/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_teams.microsoft.com_0.indexeddb.leveldb/000657.log 
+2025/12/16-10:43:14.616 12ab Level-0 table #673: started
+2025/12/16-10:43:14.636 12ad Current memtable full; waiting...
+2025/12/16-10:43:14.639 12ab Level-0 table #673: 1966276 bytes OK
+2025/12/16-10:43:14.642 12ab Delete type=0 #657
+2025/12/16-10:43:14.643 12ab Level-0 table #675: started
+2025/12/16-10:43:14.655 12ab Level-0 table #675: 2161848 bytes OK
+2025/12/16-10:43:14.657 12ab Delete type=0 #672
+2025/12/16-10:43:14.658 12ab Compacting 1@1 + 8@2 files
+2025/12/16-10:43:14.671 12ab Level-0 table #678: started
+2025/12/16-10:43:14.683 12ab Level-0 table #678: 2188442 bytes OK
+2025/12/16-10:43:14.685 12ab Delete type=0 #674
+2025/12/16-10:43:14.691 12ab Generated table #676@1: 2745 keys, 2139935 bytes
+2025/12/16-10:43:14.691 12ab Level-0 table #680: started
+2025/12/16-10:43:14.704 12ab Level-0 table #680: 2188198 bytes OK
+2025/12/16-10:43:14.705 12ab Delete type=0 #677
+2025/12/16-10:43:14.715 12ab Level-0 table #683: started
+2025/12/16-10:43:14.728 12ab Level-0 table #683: 2125233 bytes OK
+2025/12/16-10:43:14.730 12ab Delete type=0 #679
+2025/12/16-10:43:14.744 12ab Generated table #681@1: 778 keys, 2144088 bytes
+2025/12/16-10:43:14.744 12ab Level-0 table #685: started
+2025/12/16-10:43:14.756 12ab Level-0 table #685: 2137355 bytes OK
+2025/12/16-10:43:14.758 12ab Delete type=0 #682
+2025/12/16-10:43:14.760 12ab Level-0 table #688: started
+2025/12/16-10:43:14.772 12ab Level-0 table #688: 2166888 bytes OK
+2025/12/16-10:43:14.774 12ab Delete type=0 #684
+2025/12/16-10:43:14.782 12ab Level-0 table #690: started
+2025/12/16-10:43:14.794 12ab Level-0 table #690: 2192981 bytes OK
+2025/12/16-10:43:14.796 12ab Delete type=0 #687
+2025/12/16-10:43:14.800 12ab Level-0 table #692: started
+2025/12/16-10:43:14.811 12ab Level-0 table #692: 2239375 bytes OK
+2025/12/16-10:43:14.813 12ab Delete type=0 #689
+2025/12/16-10:43:14.819 12ab Generated table #686@1: 10306 keys, 2160024 bytes
+2025/12/16-10:43:14.831 12ab Generated table #693@1: 773 keys, 2142974 bytes
+2025/12/16-10:43:14.842 12ab Generated table #694@1: 765 keys, 2142779 bytes
+2025/12/16-10:43:14.856 12ab Generated table #695@1: 3122 keys, 2148825 bytes
+2025/12/16-10:43:14.872 12ab Generated table #696@1: 687 keys, 2144921 bytes
+2025/12/16-10:43:14.883 12ab Generated table #697@1: 8010 keys, 1284966 bytes
+2025/12/16-10:43:14.883 12ab Compacted 1@1 + 8@2 files => 16308512 bytes
+2025/12/16-10:43:14.884 12ab compacted to: files[ 8 0 8 0 0 0 0 ]
+2025/12/16-10:43:14.884 12ab Delete type=2 #662
+2025/12/16-10:43:14.884 12ab Delete type=2 #663
+2025/12/16-10:43:14.884 12ab Delete type=2 #664
+2025/12/16-10:43:14.884 12ab Delete type=2 #665
+2025/12/16-10:43:14.884 12ab Delete type=2 #667
+2025/12/16-10:43:14.884 12ab Delete type=2 #668
+2025/12/16-10:43:14.884 12ab Delete type=2 #669
+2025/12/16-10:43:14.884 12ab Delete type=2 #670
+2025/12/16-10:43:14.884 12ab Delete type=2 #673
+2025/12/16-10:43:14.886 12ab Compacting 8@0 + 0@1 files
+2025/12/16-10:43:14.905 12ab Generated table #698@0: 6917 keys, 2129399 bytes
+2025/12/16-10:43:14.918 12ab Generated table #699@0: 2169 keys, 2118697 bytes
+2025/12/16-10:43:14.932 12ab Generated table #700@0: 1118 keys, 2137280 bytes
+2025/12/16-10:43:14.948 12ab Generated table #701@0: 770 keys, 2144424 bytes
+2025/12/16-10:43:14.955 12ab Generated table #702@0: 1830 keys, 747004 bytes
+2025/12/16-10:43:14.955 12ab Compacted 8@0 + 0@1 files => 9276804 bytes
+2025/12/16-10:43:14.957 12ab compacted to: files[ 0 5 8 0 0 0 0 ]
+2025/12/16-10:43:14.957 12ab Delete type=2 #675
+2025/12/16-10:43:14.957 12ab Delete type=2 #678
+2025/12/16-10:43:14.957 12ab Delete type=2 #680
+2025/12/16-10:43:14.957 12ab Delete type=2 #683
+2025/12/16-10:43:14.957 12ab Delete type=2 #685
+2025/12/16-10:43:14.957 12ab Delete type=2 #688
+2025/12/16-10:43:14.957 12ab Delete type=2 #690
+2025/12/16-10:43:14.957 12ab Delete type=2 #692
+2025/12/16-12:02:48.552 12ad Compacting 1@1 + 4@2 files
+2025/12/16-12:02:48.579 12ad Generated table #703@1: 3109 keys, 2133988 bytes
+2025/12/16-12:02:48.593 12ad Generated table #704@1: 773 keys, 2143797 bytes
+2025/12/16-12:02:48.609 12ad Generated table #705@1: 5231 keys, 2148963 bytes
+2025/12/16-12:02:48.625 12ad Generated table #706@1: 5855 keys, 2152080 bytes
+2025/12/16-12:02:48.629 12ad Generated table #707@1: 151 keys, 430120 bytes
+2025/12/16-12:02:48.629 12ad Compacted 1@1 + 4@2 files => 9008948 bytes
+2025/12/16-12:02:48.630 12ad compacted to: files[ 0 4 9 0 0 0 0 ]
+2025/12/16-12:02:48.630 12ad Delete type=2 #676
+2025/12/16-12:02:48.630 12ad Delete type=2 #681
+2025/12/16-12:02:48.630 12ad Delete type=2 #686
+2025/12/16-12:02:48.630 12ad Delete type=2 #693
+2025/12/16-12:02:48.630 12ad Delete type=2 #700
+2025/12/16-14:07:18.679 12ab Expanding@1 1+1 (2129399+2133988 bytes) to 2+1 (4248096+2133988 bytes)
+2025/12/16-14:07:18.679 12ab Compacting 2@1 + 1@2 files
+2025/12/16-14:07:18.705 12ab Generated table #708@1: 2150 keys, 2119638 bytes
+2025/12/16-14:07:18.718 12ab Generated table #709@1: 2187 keys, 2119752 bytes
+2025/12/16-14:07:18.729 12ab Generated table #710@1: 2324 keys, 1544602 bytes
+2025/12/16-14:07:18.729 12ab Compacted 2@1 + 1@2 files => 5783992 bytes
+2025/12/16-14:07:18.730 12ab compacted to: files[ 0 2 11 0 0 0 0 ]
+2025/12/16-14:07:18.730 12ab Delete type=2 #698
+2025/12/16-14:07:18.730 12ab Delete type=2 #699
+2025/12/16-14:07:18.730 12ab Delete type=2 #703

@@ -1,0 +1,10 @@
+2025/12/30-18:22:08.950 86df Reusing MANIFEST /home/shadrix/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/12/30-18:22:08.951 86df Recovering log #313
+2025/12/30-18:22:08.958 86df Reusing old log /home/shadrix/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000313.log 
+2025/12/30-18:22:10.084 86e0 Level-0 table #318: started
+2025/12/30-18:22:10.093 86e0 Level-0 table #318: 2119168 bytes OK
+2025/12/30-18:22:10.095 86e0 Delete type=0 #313
+2025/12/30-18:22:10.968 86e0 Compacting 1@1 + 1@2 files
+2025/12/30-18:22:10.973 86e0 Generated table #319@1: 1929 keys, 271359 bytes
+2025/12/30-18:22:10.973 86e0 Compacted 1@1 + 1@2 files => 271359 bytes
+2025/12/30-18:22:10.974 86e0 compacted to: files[ 0 0 1 0 0 0 0 ]

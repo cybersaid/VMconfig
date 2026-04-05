@@ -1,0 +1,12 @@
+2026/03/22-20:49:25.303 3b72 Reusing MANIFEST /home/shadrix/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.dropbox.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/03/22-20:49:25.303 3b72 Recovering log #33
+2026/03/22-20:49:25.323 3b72 Reusing old log /home/shadrix/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.dropbox.com_0.indexeddb.leveldb/000033.log 
+2026/03/22-20:49:25.878 3b74 Level-0 table #38: started
+2026/03/22-20:49:25.896 3b74 Level-0 table #38: 1023285 bytes OK
+2026/03/22-20:49:25.900 3b74 Delete type=0 #33
+2026/03/22-20:49:31.125 3b74 Compacting 1@1 + 1@2 files
+2026/03/22-20:49:31.141 3b74 Generated table #39@1: 219 keys, 25243 bytes
+2026/03/22-20:49:31.141 3b74 Compacted 1@1 + 1@2 files => 25243 bytes
+2026/03/22-20:49:31.146 3b74 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/03/22-20:49:31.146 3b74 Delete type=2 #35
+2026/03/22-20:49:31.146 3b74 Delete type=2 #38

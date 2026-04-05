@@ -1,0 +1,5 @@
+2025/12/27-18:27:30.972 12d2 Creating DB /home/shadrix/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb since it was missing.
+2025/12/27-18:27:30.974 12d2 Reusing MANIFEST /home/shadrix/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/12/27-18:55:27.491 12d4 Level-0 table #5: started
+2025/12/27-18:55:27.503 12d4 Level-0 table #5: 4161393 bytes OK
+2025/12/27-18:55:27.505 12d4 Delete type=0 #3

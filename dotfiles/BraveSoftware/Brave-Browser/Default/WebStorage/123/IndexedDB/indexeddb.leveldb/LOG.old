@@ -1,0 +1,14 @@
+2026/04/04-22:16:01.463 5ee7 Reusing MANIFEST /home/shadrix/.config/BraveSoftware/Brave-Browser/Default/WebStorage/123/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2026/04/04-22:16:01.463 5ee7 Recovering log #22
+2026/04/04-22:16:01.464 5ee7 Reusing old log /home/shadrix/.config/BraveSoftware/Brave-Browser/Default/WebStorage/123/IndexedDB/indexeddb.leveldb/000022.log 
+2026/04/04-22:16:01.464 5ee7 Delete type=2 #20
+2026/04/04-22:16:01.477 5f02 Level-0 table #27: started
+2026/04/04-22:16:01.478 5f02 Level-0 table #27: 15470 bytes OK
+2026/04/04-22:16:01.479 5f02 Delete type=0 #22
+2026/04/04-22:16:01.480 5ee5 Manual compaction at level-0 from '\x00\x09\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0a\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0a\x00\x00\xc8\x11\x00L\x00o\x00g\x00s\x00R\x00e\x00q\x00u\x00e\x00s\x00t\x00s\x00S\x00t\x00o\x00r\x00e' @ 2861 : 1
+2026/04/04-22:16:01.480 5ee5 Compacting 1@0 + 1@1 files
+2026/04/04-22:16:01.481 5ee5 Generated table #28@0: 302 keys, 3911 bytes
+2026/04/04-22:16:01.481 5ee5 Compacted 1@0 + 1@1 files => 3911 bytes
+2026/04/04-22:16:01.482 5ee5 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/04/04-22:16:01.482 5ee5 Delete type=2 #27
+2026/04/04-22:16:01.482 5ee5 Manual compaction at level-0 from '\x00\x0a\x00\x00\xc8\x11\x00L\x00o\x00g\x00s\x00R\x00e\x00q\x00u\x00e\x00s\x00t\x00s\x00S\x00t\x00o\x00r\x00e' @ 2861 : 1 .. '\x00\x0a\x00\x00\x00' @ 0 : 0; will stop at (end)

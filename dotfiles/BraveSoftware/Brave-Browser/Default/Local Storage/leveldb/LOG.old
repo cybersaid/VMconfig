@@ -1,0 +1,36 @@
+2026/04/04-22:15:58.552 5 Reusing MANIFEST /home/shadrix/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
+2026/04/04-22:15:58.558 5 Recovering log #4382
+2026/04/04-22:15:58.559 5 Reusing old log /home/shadrix/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/004382.log 
+2026/04/04-22:16:08.897 7 Level-0 table #4389: started
+2026/04/04-22:16:08.910 7 Level-0 table #4389: 22003 bytes OK
+2026/04/04-22:16:08.913 7 Delete type=0 #4382
+2026/04/04-22:35:29.042 7 Level-0 table #4391: started
+2026/04/04-22:35:29.056 7 Level-0 table #4391: 20387 bytes OK
+2026/04/04-22:35:29.060 7 Delete type=0 #4388
+2026/04/04-22:56:29.042 5 Level-0 table #4393: started
+2026/04/04-22:56:29.062 5 Level-0 table #4393: 15706 bytes OK
+2026/04/04-22:56:29.065 5 Delete type=0 #4390
+2026/04/04-23:17:29.042 5 Level-0 table #4395: started
+2026/04/04-23:17:29.056 5 Level-0 table #4395: 15720 bytes OK
+2026/04/04-23:17:29.061 5 Delete type=0 #4392
+2026/04/04-23:17:29.061 5 Compacting 4@0 + 3@1 files
+2026/04/04-23:17:29.082 5 Generated table #4396@0: 1841 keys, 2130859 bytes
+2026/04/04-23:17:29.100 5 Generated table #4397@0: 1823 keys, 2137761 bytes
+2026/04/04-23:17:29.107 5 Generated table #4398@0: 237 keys, 310504 bytes
+2026/04/04-23:17:29.107 5 Compacted 4@0 + 3@1 files => 4579124 bytes
+2026/04/04-23:17:29.108 5 compacted to: files[ 0 3 1 0 0 0 0 ]
+2026/04/04-23:17:29.109 5 Delete type=2 #4384
+2026/04/04-23:17:29.109 5 Delete type=2 #4385
+2026/04/04-23:17:29.109 5 Delete type=2 #4386
+2026/04/04-23:17:29.109 5 Delete type=2 #4389
+2026/04/04-23:17:29.109 5 Delete type=2 #4391
+2026/04/04-23:17:29.109 5 Delete type=2 #4393
+2026/04/04-23:17:29.109 5 Delete type=2 #4395
+2026/04/04-23:37:59.318 7 Level-0 table #4400: started
+2026/04/04-23:37:59.329 7 Level-0 table #4400: 15680 bytes OK
+2026/04/04-23:37:59.334 7 Delete type=0 #4394
+2026/04/04-23:58:29.042 7 Level-0 table #4402: started
+2026/04/04-23:58:29.055 7 Level-0 table #4402: 15681 bytes OK
+2026/04/04-23:58:29.060 7 Delete type=0 #4399
+2026/04/05-00:18:49.789 a Level-0 table #4404: started
+2026/04/05-00:18:49.796 a Level-0 table #4404: 15716 bytes OK

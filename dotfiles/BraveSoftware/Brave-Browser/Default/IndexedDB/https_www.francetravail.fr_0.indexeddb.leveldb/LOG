@@ -1,0 +1,6 @@
+2025/12/09-10:58:29.154 1397 Creating DB /home/shadrix/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.francetravail.fr_0.indexeddb.leveldb since it was missing.
+2025/12/09-10:58:29.156 1397 Reusing MANIFEST /home/shadrix/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.francetravail.fr_0.indexeddb.leveldb/MANIFEST-000001
+2025/12/09-10:58:34.865 1399 Level-0 table #5: started
+2025/12/09-10:58:34.867 1399 Level-0 table #5: 2327 bytes OK
+2025/12/09-10:58:34.869 1399 Delete type=0 #3
+2025/12/09-10:58:34.869 1399 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,79 @@
+2025/12/13-20:33:07.095 1329 Reusing MANIFEST /home/shadrix/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_teams.microsoft.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/12/13-20:33:07.096 1329 Recovering log #632
+2025/12/13-20:33:07.102 1329 Reusing old log /home/shadrix/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_teams.microsoft.com_0.indexeddb.leveldb/000632.log 
+2025/12/13-20:33:07.576 1329 Compacting 1@1 + 5@2 files
+2025/12/13-20:33:07.592 1329 Generated table #648@1: 2708 keys, 2121362 bytes
+2025/12/13-20:33:07.609 1329 Generated table #649@1: 1734 keys, 2145163 bytes
+2025/12/13-20:33:07.624 1329 Generated table #650@1: 774 keys, 2144782 bytes
+2025/12/13-20:33:07.642 1329 Generated table #651@1: 10279 keys, 2155197 bytes
+2025/12/13-20:33:07.655 1329 Generated table #652@1: 651 keys, 1811404 bytes
+2025/12/13-20:33:07.655 1329 Compacted 1@1 + 5@2 files => 10377908 bytes
+2025/12/13-20:33:07.657 1329 compacted to: files[ 0 4 9 0 0 0 0 ]
+2025/12/13-20:33:07.657 1329 Delete type=2 #479
+2025/12/13-20:33:07.657 1329 Delete type=2 #480
+2025/12/13-20:33:07.657 1329 Delete type=2 #481
+2025/12/13-20:33:07.657 1329 Delete type=2 #638
+2025/12/13-20:33:07.657 1329 Delete type=2 #644
+2025/12/13-20:33:07.657 1329 Delete type=2 #646
+2025/12/13-20:33:07.662 1329 Compacting 1@1 + 1@2 files
+2025/12/13-20:33:07.672 1329 Generated table #653@1: 7985 keys, 849759 bytes
+2025/12/13-20:33:07.672 1329 Compacted 1@1 + 1@2 files => 849759 bytes
+2025/12/13-20:33:07.673 1329 compacted to: files[ 0 3 9 0 0 0 0 ]
+2025/12/13-20:33:07.673 1329 Delete type=2 #616
+2025/12/13-20:33:07.673 1329 Delete type=2 #642
+2025/12/13-20:33:08.831 1329 Compacting 1@1 + 2@2 files
+2025/12/13-20:33:08.846 1329 Generated table #654@1: 3053 keys, 2146784 bytes
+2025/12/13-20:33:08.862 1329 Generated table #655@1: 807 keys, 2144427 bytes
+2025/12/13-20:33:08.870 1329 Generated table #656@1: 7836 keys, 768375 bytes
+2025/12/13-20:33:08.870 1329 Compacted 1@1 + 2@2 files => 5059586 bytes
+2025/12/13-20:33:08.871 1329 compacted to: files[ 0 2 10 0 0 0 0 ]
+2025/12/13-20:33:08.871 1329 Delete type=2 #615
+2025/12/13-20:33:08.871 1329 Delete type=2 #640
+2025/12/13-20:33:08.871 1329 Delete type=2 #653
+2025/12/13-22:55:32.798 1329 Level-0 table #658: started
+2025/12/13-22:55:32.807 1329 Level-0 table #658: 1516387 bytes OK
+2025/12/13-22:55:32.809 1329 Delete type=0 #632
+2025/12/13-22:55:32.810 1329 Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\xb7\x01\x02\x01\x08\x00p\x00o\x00l\x00i\x00c\x00i\x00e\x00s' @ 691010 : 1
+2025/12/13-22:55:32.810 1329 Compacting 1@0 + 2@1 files
+2025/12/13-22:55:32.824 1329 Generated table #659@0: 6033 keys, 2149565 bytes
+2025/12/13-22:55:32.836 1329 Generated table #660@0: 1069 keys, 2147024 bytes
+2025/12/13-22:55:32.843 1329 Generated table #661@0: 269 keys, 768301 bytes
+2025/12/13-22:55:32.843 1329 Compacted 1@0 + 2@1 files => 5064890 bytes
+2025/12/13-22:55:32.844 1329 compacted to: files[ 0 3 10 0 0 0 0 ]
+2025/12/13-22:55:32.844 1329 Delete type=2 #639
+2025/12/13-22:55:32.844 1329 Delete type=2 #641
+2025/12/13-22:55:32.844 1329 Delete type=2 #658
+2025/12/13-22:55:32.845 1329 Manual compaction at level-0 from '\x00\xb7\x01\x02\x01\x08\x00p\x00o\x00l\x00i\x00c\x00i\x00e\x00s' @ 691010 : 1 .. (end); will stop at (end)
+2025/12/13-22:55:32.845 1329 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00o\x02\x01\x01*\x00d\x00e\x005\x001\x002\x001\x004\x001\x00-\x003\x006\x00f\x00b\x00-\x004\x00f\x005\x00e\x00-\x00b\x006\x00e\x005\x00-\x00c\x003\x007\x00a\x00f\x008\x00b\x000\x003\x009\x000\x00e\x00_\x001\x00.\x002\x00.\x000' @ 684197 : 1
+2025/12/13-22:55:32.845 1329 Compacting 1@1 + 8@2 files
+2025/12/13-22:55:32.864 1329 Generated table #662@1: 2220 keys, 2147751 bytes
+2025/12/13-22:55:32.878 1329 Generated table #663@1: 778 keys, 2143238 bytes
+2025/12/13-22:55:32.893 1329 Generated table #664@1: 10263 keys, 2157798 bytes
+2025/12/13-22:55:32.907 1329 Generated table #665@1: 773 keys, 2144498 bytes
+2025/12/13-22:55:32.924 1329 Generated table #666@1: 3028 keys, 2076843 bytes
+2025/12/13-22:55:32.924 1329 Compacted 1@1 + 8@2 files => 10670128 bytes
+2025/12/13-22:55:32.925 1329 compacted to: files[ 0 2 7 0 0 0 0 ]
+2025/12/13-22:55:32.925 1329 Delete type=2 #482
+2025/12/13-22:55:32.925 1329 Delete type=2 #645
+2025/12/13-22:55:32.925 1329 Delete type=2 #648
+2025/12/13-22:55:32.925 1329 Delete type=2 #649
+2025/12/13-22:55:32.925 1329 Delete type=2 #650
+2025/12/13-22:55:32.925 1329 Delete type=2 #651
+2025/12/13-22:55:32.925 1329 Delete type=2 #652
+2025/12/13-22:55:32.925 1329 Delete type=2 #654
+2025/12/13-22:55:32.925 1329 Delete type=2 #659
+2025/12/13-22:55:32.927 1329 Expanding@1 1+3 (2147024+4989645 bytes) to 2+3 (2915325+4989645 bytes)
+2025/12/13-22:55:32.928 1329 Manual compaction at level-1 from '\x00o\x02\x01\x01*\x00d\x00e\x005\x001\x002\x001\x004\x001\x00-\x003\x006\x00f\x00b\x00-\x004\x00f\x005\x00e\x00-\x00b\x006\x00e\x005\x00-\x00c\x003\x007\x00a\x00f\x008\x00b\x000\x003\x009\x000\x00e\x00_\x001\x00.\x002\x00.\x000' @ 684197 : 1 .. (end); will stop at '\x00\xb7\x01\x02\x01\x08\x00p\x00o\x00l\x00i\x00c\x00i\x00e\x00s' @ 691010 : 1
+2025/12/13-22:55:32.928 1329 Compacting 2@1 + 3@2 files
+2025/12/13-22:55:32.942 1329 Generated table #667@1: 3066 keys, 2150895 bytes
+2025/12/13-22:55:32.954 1329 Generated table #668@1: 796 keys, 2142792 bytes
+2025/12/13-22:55:32.967 1329 Generated table #669@1: 698 keys, 2144323 bytes
+2025/12/13-22:55:32.974 1329 Generated table #670@1: 7810 keys, 696099 bytes
+2025/12/13-22:55:32.974 1329 Compacted 2@1 + 3@2 files => 7134109 bytes
+2025/12/13-22:55:32.975 1329 compacted to: files[ 0 0 8 0 0 0 0 ]
+2025/12/13-22:55:32.975 1329 Delete type=2 #655
+2025/12/13-22:55:32.975 1329 Delete type=2 #656
+2025/12/13-22:55:32.975 1329 Delete type=2 #660
+2025/12/13-22:55:32.975 1329 Delete type=2 #661
+2025/12/13-22:55:32.975 1329 Delete type=2 #666
+2025/12/13-22:55:32.976 1329 Manual compaction at level-1 from '\x00\xb7\x01\x02\x01\x08\x00p\x00o\x00l\x00i\x00c\x00i\x00e\x00s' @ 691010 : 1 .. (end); will stop at (end)

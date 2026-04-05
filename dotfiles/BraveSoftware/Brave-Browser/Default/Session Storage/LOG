@@ -1,0 +1,8 @@
+2026/04/05-09:42:18.757 5 Reusing MANIFEST /home/shadrix/.config/BraveSoftware/Brave-Browser/Default/Session Storage/MANIFEST-000001
+2026/04/05-09:42:18.758 5 Recovering log #355
+2026/04/05-09:42:18.758 5 Level-0 table #357: started
+2026/04/05-09:42:18.761 5 Level-0 table #357: 18039 bytes OK
+2026/04/05-09:42:18.761 5 Recovering log #357
+2026/04/05-09:42:18.762 5 Reusing old log /home/shadrix/.config/BraveSoftware/Brave-Browser/Default/Session Storage/000357.log 
+2026/04/05-09:42:18.763 5 Delete type=0 #355
+2026/04/05-09:42:18.763 5 Delete type=2 #358

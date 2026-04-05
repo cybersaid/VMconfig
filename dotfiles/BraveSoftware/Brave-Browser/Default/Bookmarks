@@ -1,0 +1,996 @@
+{
+   "checksum": "8d8c3efa7aba66c3efded0553aae59bb",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "children": [ {
+               "date_added": "13315403350915725",
+               "date_last_used": "0",
+               "guid": "ea9cca17-9291-4b63-aeb8-90e4f6a87f9e",
+               "id": "11",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Les différents rôles : ADDS, ADFS, ADCS... | IT-Connect",
+               "type": "url",
+               "url": "https://www.it-connect.fr/chapitres/les-differents-roles-adds-adfs-adcs/"
+            }, {
+               "date_added": "13315483154519403",
+               "date_last_used": "0",
+               "guid": "709a36bb-6240-4042-a22b-f7c00adad219",
+               "id": "12",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Autorité de certification d'entreprise : installation et configuration avec Windows Server",
+               "type": "url",
+               "url": "https://rdr-it.com/autorite-certification-entreprise-installation-configuration-windows-server/"
+            }, {
+               "date_added": "13315499894456694",
+               "date_last_used": "0",
+               "guid": "9c4d4206-68d5-4b87-8272-93cc983fce69",
+               "id": "13",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Quelle est la différence entre un certificat SAN et un certificat Wildcard?",
+               "type": "url",
+               "url": "https://www.kinamo.fr/fr/support/faq/quelle-est-la-difference-entre-un-certificat-san-et-un-certificat-wildcard"
+            }, {
+               "children": [ {
+                  "date_added": "13373056119758632",
+                  "date_last_used": "0",
+                  "guid": "def3ba2d-06f0-414a-bc81-7a02f34817ce",
+                  "id": "15",
+                  "meta_info": {
+                     "power_bookmark_meta": ""
+                  },
+                  "name": "TryHackMe | shadrixthm",
+                  "type": "url",
+                  "url": "https://tryhackme.com/r/p/shadrixthm"
+               }, {
+                  "date_added": "13375282245418044",
+                  "date_last_used": "0",
+                  "guid": "fdca1fce-2a34-44f3-b1ee-8890fa9462b4",
+                  "id": "16",
+                  "meta_info": {
+                     "power_bookmark_meta": ""
+                  },
+                  "name": "The All-Access Membership | TCM Security, Inc.",
+                  "type": "url",
+                  "url": "https://academy.tcm-sec.com/p/the-all-access-pass#courses"
+               }, {
+                  "date_added": "13373054322533697",
+                  "date_last_used": "0",
+                  "guid": "2bbdf34c-0fec-48db-b8e3-d87ef5491538",
+                  "id": "17",
+                  "meta_info": {
+                     "power_bookmark_meta": ""
+                  },
+                  "name": "HTB",
+                  "type": "url",
+                  "url": "https://academy.hackthebox.com/dashboard"
+               }, {
+                  "date_added": "13380218505858556",
+                  "date_last_used": "0",
+                  "guid": "9fe79f50-2b0c-469d-8a9d-96da5088a6e3",
+                  "id": "18",
+                  "meta_info": {
+                     "power_bookmark_meta": ""
+                  },
+                  "name": "Cybersecurity | Cybersecurity",
+                  "type": "url",
+                  "url": "https://www.netacad.com/fr/cybersecurity"
+               }, {
+                  "date_added": "13381145924146493",
+                  "date_last_used": "0",
+                  "guid": "d2c3702e-04e8-4573-a67f-a077e1e62099",
+                  "id": "19",
+                  "meta_info": {
+                     "power_bookmark_meta": ""
+                  },
+                  "name": "Cisco CyberOps [CBROPS 200-201] passed! My experience : r/cybersecurity",
+                  "type": "url",
+                  "url": "https://www.reddit.com/r/cybersecurity/comments/ufmy5f/cisco_cyberops_cbrops_200201_passed_my_experience/?rdt=41609"
+               }, {
+                  "date_added": "13406060952761634",
+                  "date_last_used": "0",
+                  "guid": "f8f20017-0fe6-429d-a116-d169ac075879",
+                  "id": "20",
+                  "meta_info": {
+                     "power_bookmark_meta": ""
+                  },
+                  "name": "CVE Record: CVE-2024-3094",
+                  "type": "url",
+                  "url": "https://www.cve.org/CVERecord?id=CVE-2024-3094"
+               } ],
+               "date_added": "13380218432951363",
+               "date_last_used": "0",
+               "date_modified": "13406060952761634",
+               "guid": "34e84b0b-7cc4-403c-89d9-6f311d814c66",
+               "id": "14",
+               "name": "Cyber",
+               "type": "folder"
+            } ],
+            "date_added": "13315403373144960",
+            "date_last_used": "0",
+            "date_modified": "13315499894456694",
+            "guid": "786f8330-2b21-413d-89d7-91de9155997a",
+            "id": "10",
+            "name": "cours",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13320406142264535",
+               "date_last_used": "0",
+               "guid": "15a548bf-03a7-4db7-b815-81f275c54754",
+               "id": "22",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Kujou Sara Guide de construction Genshin Impact - Base de données Wiki Genshin-Builds.com",
+               "type": "url",
+               "url": "https://genshin-builds.com/fr/character/kujou_sara"
+            }, {
+               "date_added": "13356542997276462",
+               "date_last_used": "0",
+               "guid": "340bc310-0a5a-4183-b2a3-7da77b71566c",
+               "id": "23",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Kujou Sara Electro Support Construire Genshin Impact | HoYoLAB",
+               "type": "url",
+               "url": "https://www.hoyolab.com/article/4989719"
+            }, {
+               "date_added": "13320343164779199",
+               "date_last_used": "13320346546109052",
+               "guid": "7af4ba8f-0778-4a0b-853e-e5602ffca3a2",
+               "id": "24",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Carte interactive de Teyvat - HoYoLAB",
+               "type": "url",
+               "url": "https://act.hoyolab.com/ys/app/interactive-map/index.html?lang=fr-fr#/map/2?shown_types=&center=232.25,105.75&zoom=-1.00"
+            }, {
+               "date_added": "13347807830971547",
+               "date_last_used": "0",
+               "guid": "0f07c9bc-c557-448a-a301-548aeee61139",
+               "id": "25",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Become a pro: train aim tracking - 3D Aim Trainer",
+               "type": "url",
+               "url": "https://app.3daimtrainer.com/become-a-pro/aim-tracking"
+            }, {
+               "date_added": "13343850487987615",
+               "date_last_used": "0",
+               "guid": "d83300ee-d722-4a04-97f8-a5f68116fe5b",
+               "id": "26",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Emulator Games - Download Game ROMs",
+               "type": "url",
+               "url": "https://www.emulatorgames.net/"
+            }, {
+               "date_added": "13343850436668412",
+               "date_last_used": "13358774419575812",
+               "guid": "f734174a-150a-4452-a5eb-52a85c11cae7",
+               "id": "27",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Download ROMs FREE for GBA, SNES, NDS, N64, PSX, 3DS & More!",
+               "type": "url",
+               "url": "https://www.romsgames.net/"
+            }, {
+               "date_added": "13343826601445766",
+               "date_last_used": "0",
+               "guid": "16b348e3-a77b-476f-bd16-61c9678d5375",
+               "id": "28",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Nintendo DS Bios & Firmware Bios Download - Retrostic",
+               "type": "url",
+               "url": "https://www.retrostic.com/bios/nintendo-ds/download"
+            }, {
+               "date_added": "13358774430565069",
+               "date_last_used": "13404469398329639",
+               "guid": "007947fb-f158-4a6c-ad03-70cbec6332e5",
+               "id": "29",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "/r/Roms Megathread",
+               "type": "url",
+               "url": "https://r-roms.github.io/"
+            }, {
+               "date_added": "13355343129172791",
+               "date_last_used": "0",
+               "guid": "411e9818-aa59-474f-8f39-3482f1a30709",
+               "id": "30",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Accueil - Genshin Impact FR",
+               "type": "url",
+               "url": "https://www.genshin-impact.fr/"
+            }, {
+               "date_added": "13356543323584406",
+               "date_last_used": "0",
+               "guid": "7d377e23-298b-4e8c-85fe-64cae6d50aba",
+               "id": "31",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Archives des personnages - Genshin Impact - HoYoWiki",
+               "type": "url",
+               "url": "https://wiki.hoyolab.com/pc/genshin/aggregate/2?filter_ids="
+            }, {
+               "date_added": "13363286337514170",
+               "date_last_used": "0",
+               "guid": "df309ac6-27ce-4839-a0f8-50eb2d309984",
+               "id": "32",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Liste des jeux PSP : r/RG35XX",
+               "type": "url",
+               "url": "https://www.reddit.com/r/RG35XX/comments/15pze2n/psp_games_list/?tl=fr"
+            }, {
+               "children": [ {
+                  "date_added": "13364837353462185",
+                  "date_last_used": "0",
+                  "guid": "06312e76-cbe9-4c1e-9391-839c423e66a8",
+                  "id": "34",
+                  "meta_info": {
+                     "power_bookmark_meta": ""
+                  },
+                  "name": "Achetez vos jeux vidéo moins chers sur PC et consoles - Instant Gaming",
+                  "type": "url",
+                  "url": "https://www.instant-gaming.com/fr/"
+               }, {
+                  "date_added": "13364937640154413",
+                  "date_last_used": "0",
+                  "guid": "1b11a1d7-55f2-493a-87c5-579920c63c81",
+                  "id": "35",
+                  "meta_info": {
+                     "power_bookmark_meta": ""
+                  },
+                  "name": "Les meilleurs jeux vidéo, sans DRM | GOG.COM",
+                  "type": "url",
+                  "url": "https://www.gog.com/fr/games"
+               } ],
+               "date_added": "13364839841193340",
+               "date_last_used": "0",
+               "date_modified": "13364937640154413",
+               "guid": "e4dfbd91-ef62-4b9a-b401-404c4ac49bb7",
+               "id": "33",
+               "name": "Shop",
+               "type": "folder"
+            }, {
+               "date_added": "13365415435162362",
+               "date_last_used": "0",
+               "guid": "2eaa499d-4cae-4181-9765-e45623cb7e3b",
+               "id": "36",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "PS5 and Windows PC Crossplay (Cross-Platform) Games",
+               "type": "url",
+               "url": "https://crossplaygames.com/crossplay?p1=windows-pc&p2=playstation-5"
+            } ],
+            "date_added": "13322737909950551",
+            "date_last_used": "0",
+            "date_modified": "13365415435162362",
+            "guid": "ada31c3f-da08-448d-a621-cecfcda4f557",
+            "id": "21",
+            "name": "gaming",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13405339929038734",
+               "date_last_used": "0",
+               "guid": "111c5b6c-7806-489c-87c2-a83dd4d4e0ae",
+               "id": "44",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Boutique en ligne CYBEX | Acheter des poussettes et des sièges auto en ligne",
+               "type": "url",
+               "url": "https://www.cybex-online.com/fr/fr"
+            }, {
+               "date_added": "13405339934207845",
+               "date_last_used": "0",
+               "guid": "745f95fd-5476-4ab9-8658-deeddd41e2fd",
+               "id": "45",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Joie Signature finiti | Poussette compacte 4-en-1, de la naissance à 22 kg",
+               "type": "url",
+               "url": "https://joiebaby.com/fr/poussette-compacte-signature-finiti-4-en-1#color=24"
+            }, {
+               "date_added": "13410694727621423",
+               "date_last_used": "0",
+               "guid": "695ef525-bd03-48d6-ae53-d4fdc4f8dbdc",
+               "id": "121",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Cybex - Revendeur officiel, Livraison en 24h",
+               "type": "url",
+               "url": "https://www.baby-lux.com/boutique/cybex.html"
+            } ],
+            "date_added": "13405339924955118",
+            "date_last_used": "0",
+            "date_modified": "13410694731859698",
+            "guid": "d1e19502-68d3-4c09-a062-d6dd58e4468d",
+            "id": "43",
+            "name": "Bébé",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13364595286611852",
+               "date_last_used": "0",
+               "guid": "5d135da6-1b9d-4608-96b8-6eab498998ef",
+               "id": "38",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Fichiers - Dropbox",
+               "type": "url",
+               "url": "https://www.dropbox.com/home"
+            }, {
+               "date_added": "13369936932447243",
+               "date_last_used": "13407771960865091",
+               "guid": "a043d7ec-3ca2-47f2-b3cb-14e3c52456bc",
+               "id": "39",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "1_GCS - kDrive by Infomaniak",
+               "type": "url",
+               "url": "https://kdrive.infomaniak.com/app/drive/1220266/files/1245"
+            } ],
+            "date_added": "13407771956975139",
+            "date_last_used": "0",
+            "date_modified": "13408057462980495",
+            "guid": "3e3dca16-03af-47d4-a6d5-a7864b8aca69",
+            "id": "111",
+            "name": "Data",
+            "type": "folder"
+         }, {
+            "date_added": "13389027469067116",
+            "date_last_used": "0",
+            "guid": "7e540f28-3672-41e8-8f46-a6b18cc4de98",
+            "id": "41",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Dashboard - Invvest",
+            "type": "url",
+            "url": "https://invvest.co/dashboard"
+         }, {
+            "date_added": "13405781904351853",
+            "date_last_used": "13411675224912947",
+            "guid": "0e3f460d-bb77-4bc9-b2c0-bbf30d0b4ce4",
+            "id": "46",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Portail BC-RMA",
+            "type": "url",
+            "url": "https://bc-rma.consultants-solutec.fr/UI/AccueilsMenu_Pages/Accueil.aspx"
+         }, {
+            "date_added": "13408057462980495",
+            "date_last_used": "13408192204379926",
+            "guid": "66450971-01c7-4315-a7bd-565f983b2d47",
+            "id": "113",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Keybinds & IPC | Dank Linux",
+            "type": "url",
+            "url": "https://danklinux.com/docs/dankmaterialshell/keybinds-ipc#keybinds"
+         }, {
+            "date_added": "13408373560057517",
+            "date_last_used": "13408374348041038",
+            "guid": "e302bf85-9e3d-4956-92ae-0884f3fcd8d2",
+            "id": "115",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Layout - niri",
+            "type": "url",
+            "url": "https://yalter.github.io/niri/Configuration%3A-Layout.html#shadow"
+         }, {
+            "date_added": "13409229371496957",
+            "date_last_used": "0",
+            "guid": "2061d2be-db30-4b69-881f-605ed4ce6619",
+            "id": "117",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "kSuite - Outils collaboratifs - Infomaniak",
+            "type": "url",
+            "url": "https://manager.infomaniak.com/v3/1129828/ng/products/ksuite/ksuite"
+         }, {
+            "date_added": "13409511151138215",
+            "date_last_used": "0",
+            "guid": "34c08d84-5bb6-4c18-8f36-770ec3b02600",
+            "id": "119",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "13 semaine d'aménorrhée premiere grossesse mal proche de l'anus - Brave Search",
+            "type": "url",
+            "url": "https://search.brave.com/search?q=+13+semaine+d%27am%C3%A9norrh%C3%A9e+premiere+grossesse+mal+proche+de+l%27anus&source=web&summary=1&conversation=07389d33e0c666e045df9d"
+         } ],
+         "date_added": "13407325800041706",
+         "date_last_used": "0",
+         "date_modified": "13410694727621423",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks",
+         "type": "folder"
+      },
+      "other": {
+         "children": [ {
+            "children": [ {
+               "children": [ {
+                  "date_added": "13367050051003080",
+                  "date_last_used": "13391641396764681",
+                  "guid": "13b7232b-b914-4823-8f34-a2621689ec52",
+                  "id": "49",
+                  "meta_info": {
+                     "power_bookmark_meta": ""
+                  },
+                  "name": "Accueil - Martimotos",
+                  "type": "url",
+                  "url": "https://www.martimotos.com/fr/recherche#/embedded/query=HJC%20I71&page=1&session_id=2a308b24d79a89242845e6bd6ce473b9&query_name=match_and"
+               }, {
+                  "date_added": "13378735373009908",
+                  "date_last_used": "0",
+                  "guid": "95002359-2164-41f4-90a9-fd5a15bccbbc",
+                  "id": "50",
+                  "meta_info": {
+                     "power_bookmark_meta": ""
+                  },
+                  "name": "motoblouz.com/envoyez-nous-un-message.html",
+                  "type": "url",
+                  "url": "https://www.motoblouz.com/envoyez-nous-un-message.html"
+               } ],
+               "date_added": "13364989807340506",
+               "date_last_used": "0",
+               "date_modified": "13378735373009908",
+               "guid": "77f12870-1116-4cac-ab68-6e1ce3cceb37",
+               "id": "48",
+               "name": "Motos",
+               "type": "folder"
+            }, {
+               "date_added": "13351596717801193",
+               "date_last_used": "0",
+               "guid": "de5f0472-a0b2-41ff-ae27-560092a9ea21",
+               "id": "51",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "All - TickTick",
+               "type": "url",
+               "url": "https://ticktick.com/webapp/#q/all/tasks"
+            }, {
+               "date_added": "13273708934951110",
+               "date_last_used": "0",
+               "guid": "a3acaa83-6642-43e3-8b51-bbd1d7e76658",
+               "id": "52",
+               "name": "Simulateur d'épargne : calcul intérêts - Simulation épargne | HSBC",
+               "type": "url",
+               "url": "https://www.hsbc.fr/1/2//hsbc-france/particuliers/simulateurs/simulateur-epargne"
+            }, {
+               "date_added": "13352632156888718",
+               "date_last_used": "0",
+               "guid": "9d7884eb-af2f-4fea-a7ba-ff009798b046",
+               "id": "53",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Fougère Aromatique 305",
+               "type": "url",
+               "url": "https://equivalenza.fr/parfums/fougere-aromatique-305.html"
+            }, {
+               "date_added": "13352717174190757",
+               "date_last_used": "0",
+               "guid": "a6591826-c516-4a86-8a0f-d99ce12f2928",
+               "id": "54",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "All Marvel Movies In Order: How To Watch MCU Chronologically | Rotten Tomatoes",
+               "type": "url",
+               "url": "https://editorial.rottentomatoes.com/guide/marvel-movies-in-order/"
+            }, {
+               "date_added": "13352723311279095",
+               "date_last_used": "0",
+               "guid": "8fd39999-6616-493f-b754-ff39b8faad10",
+               "id": "55",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "ASRock Radeon RX 7800 XT Steel Legend - Carte graphique - Top Achat",
+               "type": "url",
+               "url": "https://www.topachat.com/pages/detail2_cat_est_micro_puis_rubrique_est_wgfx_pcie_puis_ref_est_in20019944.html"
+            }, {
+               "date_added": "13364652112304319",
+               "date_last_used": "13405175476145084",
+               "guid": "73546d43-7f8c-4986-bc77-dbe23df8d8ad",
+               "id": "56",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "The fastest SSD 2024",
+               "type": "url",
+               "url": "https://ssd-tester.com/top_ssd.php?sort=2048+GB&sort_interface=PCIe+4.0+x4"
+            }, {
+               "children": [ {
+                  "date_added": "13363946458896558",
+                  "date_last_used": "0",
+                  "guid": "7fa682a5-52e7-47b5-ad97-96ff0fffe03d",
+                  "id": "58",
+                  "meta_info": {
+                     "power_bookmark_meta": ""
+                  },
+                  "name": "Sweet Home 3D : Free 3D models",
+                  "type": "url",
+                  "url": "https://www.sweethome3d.com/freeModels.jsp"
+               }, {
+                  "date_added": "13363946479553662",
+                  "date_last_used": "0",
+                  "guid": "bc407c56-5a79-4489-b1bc-d1ad677efbaf",
+                  "id": "59",
+                  "meta_info": {
+                     "power_bookmark_meta": ""
+                  },
+                  "name": "Wavefront/obj models - 3",
+                  "type": "url",
+                  "url": "http://telias.free.fr/models_wavefront_menu3.html"
+               }, {
+                  "date_added": "13363946485038228",
+                  "date_last_used": "0",
+                  "guid": "635d583c-8e5c-4d13-851a-c74784ad3dbb",
+                  "id": "60",
+                  "meta_info": {
+                     "power_bookmark_meta": ""
+                  },
+                  "name": "ArchiBit Generation s.r.l. - 3D models - lamps",
+                  "type": "url",
+                  "url": "https://www.2d3dmodels.com/3dmodels/lamps.htm"
+               }, {
+                  "date_added": "13363946489529818",
+                  "date_last_used": "0",
+                  "guid": "95067176-50dd-4f44-9e5d-45a994cca311",
+                  "id": "61",
+                  "meta_info": {
+                     "power_bookmark_meta": ""
+                  },
+                  "name": "Models – Resources – Free 3D models for blender, sweethome3d and others",
+                  "type": "url",
+                  "url": "https://resources.blogscopia.com/category/models/"
+               }, {
+                  "date_added": "13363946494021437",
+                  "date_last_used": "0",
+                  "guid": "3598b680-15f6-480f-b524-46fe1c4909e6",
+                  "id": "62",
+                  "meta_info": {
+                     "power_bookmark_meta": ""
+                  },
+                  "name": "Free 3D Models and Objects Archive on free3D.io Page 1",
+                  "type": "url",
+                  "url": "https://free3d.io/#gsc.tab=0"
+               }, {
+                  "date_added": "13363946497239792",
+                  "date_last_used": "0",
+                  "guid": "5f548224-64cb-459f-92c6-925b10684698",
+                  "id": "63",
+                  "meta_info": {
+                     "power_bookmark_meta": ""
+                  },
+                  "name": "3D Furniture Models - Free",
+                  "type": "url",
+                  "url": "https://www.model3d.biz/obj/?did=21"
+               } ],
+               "date_added": "13363946477152207",
+               "date_last_used": "0",
+               "date_modified": "13363946497239792",
+               "guid": "8e1ef3b6-6d39-4795-844b-dbe48c150959",
+               "id": "57",
+               "name": "house",
+               "type": "folder"
+            }, {
+               "date_added": "13368293533963825",
+               "date_last_used": "0",
+               "guid": "e24a2d35-bfb2-4426-b99c-9e5af48219fb",
+               "id": "64",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Freepik AI image generator - Free text-to-image generator",
+               "type": "url",
+               "url": "https://www.freepik.com/pikaso/ai-image-generator?prompt=a+women+giving+her+keys+to+a+client+for+a+new+appartement&style=smart&color=smart&lighting=smart&framing=smart&sign-up=google"
+            }, {
+               "date_added": "13368293660523315",
+               "date_last_used": "0",
+               "guid": "cd00e4a3-b4b1-469b-a05a-ac6015bd0c6c",
+               "id": "65",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Untitled Project | All In One Web Editor | Picsart",
+               "type": "url",
+               "url": "https://picsart.com/create/editor?category=photos&app=t2i&prompt=a+women+giving+her+keys+to+a+client+for+a+new+appartement&version=1.14.1"
+            }, {
+               "date_added": "13370453435608909",
+               "date_last_used": "0",
+               "guid": "eae39211-1336-4b80-a770-f617ddfdff47",
+               "id": "66",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "QCM Sécurité informatique – Partie 20 - WayToLearnX",
+               "type": "url",
+               "url": "https://waytolearnx.com/2024/05/qcm-securite-informatique-partie-20.html"
+            }, {
+               "date_added": "13370979095826498",
+               "date_last_used": "0",
+               "guid": "50fb9b50-4042-4b0b-85d9-c7c692a46eb6",
+               "id": "67",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "DC Animated Movies In Order: How to Watch 55 Original and Universe Films | Rotten Tomatoes",
+               "type": "url",
+               "url": "https://editorial.rottentomatoes.com/guide/dc-animated-movies-in-order/"
+            }, {
+               "date_added": "13374788582174169",
+               "date_last_used": "0",
+               "guid": "e0d14fb8-7f5c-4fa9-abbe-d37d69cb838f",
+               "id": "68",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Free Text to Speech Online with Realistic AI Voices",
+               "type": "url",
+               "url": "https://www.naturalreaders.com/online/"
+            }, {
+               "date_added": "13382036906746774",
+               "date_last_used": "13393198646120258",
+               "guid": "f6dcbfe7-4c82-438c-a773-a513fad86603",
+               "id": "69",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Les Meilleurs Sites De Streaming",
+               "type": "url",
+               "url": "https://topsitestreaming.org/"
+            }, {
+               "date_added": "13382743243670673",
+               "date_last_used": "0",
+               "guid": "62126c22-a6a1-48fd-bd5b-1f05782d707e",
+               "id": "70",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "PrimeFlix",
+               "type": "url",
+               "url": "https://primeflix-web.vercel.app/"
+            }, {
+               "date_added": "13383227819827190",
+               "date_last_used": "0",
+               "guid": "51028178-1ef6-44d3-a2ea-2d54066c22a6",
+               "id": "71",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "CANON EOS R10 NU + 18-45/4,5-6,3 IS STM (3000 CLICS) - OCCASION",
+               "type": "url",
+               "url": "https://ipln.fr/occasion/18997-canon-eos-r10-nu-18-45-45-63-is-stm-3000-clics-occasion-6664333057138"
+            }, {
+               "date_added": "13383227825609976",
+               "date_last_used": "0",
+               "guid": "85847cb6-913c-4f7c-9ea8-bc31962fea19",
+               "id": "72",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Ulanzi CA25: Ventilateur de Refroidissement pour Appareil Photo - Efficace & Compact",
+               "type": "url",
+               "url": "https://ipln.fr/accessoire-photo/11329-7898-ulanzi-ventilateur-de-camera-pour-sony-canon-fujifilm#/11-couleur-noir"
+            }, {
+               "date_added": "13393198347622667",
+               "date_last_used": "0",
+               "guid": "97d96d69-4380-4623-b1ac-b1357d220b3e",
+               "id": "73",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "flemmix - Profitez de milliers de films et séries en HD sur Flemmix. Accès instantané, sans inscription, en VF et VOSTFR. Streaming 100 % gratuit et sans publicité Streaming",
+               "type": "url",
+               "url": "https://flemmix.top/"
+            }, {
+               "date_added": "13406327699805527",
+               "date_last_used": "0",
+               "guid": "97ad4acc-b795-4beb-9682-7796b85c16a6",
+               "id": "74",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Photos - Google Photos",
+               "type": "url",
+               "url": "https://photos.google.com/u/0/?hl=fr"
+            }, {
+               "date_added": "13406327707472486",
+               "date_last_used": "0",
+               "guid": "9543b198-8e39-4882-a220-86f9b2b7fe1a",
+               "id": "75",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Amazon Photos",
+               "type": "url",
+               "url": "https://www.amazon.com/photos/all?pageIndex=17"
+            }, {
+               "date_added": "13407525466845903",
+               "date_last_used": "0",
+               "guid": "72748404-34e0-4284-aeed-12561bcbf56d",
+               "id": "109",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "33 Great Christian Movies to Grow Your Faith – Pastor Unlikely",
+               "type": "url",
+               "url": "https://pastorunlikely.com/33-great-christian-movies-to-grow-your-faith/"
+            } ],
+            "date_added": "13351596730365255",
+            "date_last_used": "0",
+            "date_modified": "13407525466845903",
+            "guid": "445a1472-0239-429a-ab60-af84802e8ff6",
+            "id": "47",
+            "name": "Perso",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "children": [ {
+                  "date_added": "13322671250632320",
+                  "date_last_used": "0",
+                  "guid": "c249a45d-744a-450c-b08f-f1875e7e9052",
+                  "id": "82",
+                  "meta_info": {
+                     "power_bookmark_meta": ""
+                  },
+                  "name": "(IT) Information Technology Certifications | CompTIA IT Certifications",
+                  "type": "url",
+                  "url": "https://www.comptia.org/certifications"
+               }, {
+                  "date_added": "13322671356072360",
+                  "date_last_used": "0",
+                  "guid": "92a7f488-653a-472d-a809-eb3d86044540",
+                  "id": "83",
+                  "meta_info": {
+                     "power_bookmark_meta": ""
+                  },
+                  "name": "Certifications ISACA®",
+                  "type": "url",
+                  "url": "https://www.oo2.fr/formations/certifications/isaca#:~:text=ISACA%20est%20une%20association%20mondiale,la%20gouvernance%20et%20des%20risques."
+               }, {
+                  "date_added": "13322671507545925",
+                  "date_last_used": "0",
+                  "guid": "b835d8ac-2c87-406a-a345-7e62ed5cb766",
+                  "id": "84",
+                  "meta_info": {
+                     "power_bookmark_meta": ""
+                  },
+                  "name": "Certification (ISC)² | Global Knowledge",
+                  "type": "url",
+                  "url": "https://www.globalknowledge.com/fr-fr/certifications/certification-professionnelle/isc"
+               } ],
+               "date_added": "13322671301095018",
+               "date_last_used": "0",
+               "date_modified": "13322671507545925",
+               "guid": "496202ec-4be6-444f-b973-3bf823497f62",
+               "id": "81",
+               "name": "Certification",
+               "type": "folder"
+            }, {
+               "date_added": "13322848526959655",
+               "date_last_used": "0",
+               "guid": "e73841bf-d27c-4206-b46e-ff959ed2108e",
+               "id": "85",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Contrôle d’accès logique | Cloudflare",
+               "type": "url",
+               "url": "https://www.cloudflare.com/fr-fr/learning/access-management/what-is-access-control/"
+            }, {
+               "date_added": "13334879821929439",
+               "date_last_used": "0",
+               "guid": "b9665859-5e7c-4f8d-bf99-f08c0e651e68",
+               "id": "89",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Copier un badge NFC avec Kali Linux & Android | Net-Security",
+               "type": "url",
+               "url": "https://net-security.fr/security/copier-un-badge-nfc-avec-kali-linux-android/"
+            }, {
+               "date_added": "13334879852922518",
+               "date_last_used": "0",
+               "guid": "588f3136-94b0-487f-8427-d48ddcb3784b",
+               "id": "90",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "How to hack Mifare Classic NFC cards | by Jeremie A \u003Clp1> | Medium",
+               "type": "url",
+               "url": "https://medium.com/@lp1/how-to-hack-mifare-classic-nfc-cards-69c8edcbe1e7"
+            }, {
+               "date_added": "13349046406481862",
+               "date_last_used": "0",
+               "guid": "be501429-3da3-4398-ba71-d2e10b334098",
+               "id": "91",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Comment mettre un accent à une majuscule (À, É, È, Ç) ?",
+               "type": "url",
+               "url": "https://www.phonandroid.com/comment-mettre-un-accent-majuscule.html"
+            } ],
+            "date_added": "13315506350166138",
+            "date_last_used": "0",
+            "date_modified": "13349046406481862",
+            "guid": "94e58404-1273-4ee9-ba0c-86294c984368",
+            "id": "80",
+            "name": "IT",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13327492927083419",
+               "date_last_used": "13361361448695522",
+               "guid": "3cadee86-61ab-4c0e-95aa-bb9e7a49eff2",
+               "id": "95",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Melodics - Arturia MiniLab",
+               "type": "url",
+               "url": "https://www.melodics.com/partners/arturia/minilab"
+            }, {
+               "date_added": "13358538028184768",
+               "date_last_used": "0",
+               "guid": "f15fb4f3-6762-48a1-a034-a14250bdf8db",
+               "id": "96",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "jemaf.fr",
+               "type": "url",
+               "url": "https://jemaf.fr/chant=jem900&accords"
+            }, {
+               "date_added": "13359748125259676",
+               "date_last_used": "0",
+               "guid": "5bbdfb36-f072-4f8a-bd04-f78f82f8c021",
+               "id": "97",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "PianoShow.me - show your chords, notes, scales on a piano chart",
+               "type": "url",
+               "url": "https://pianoshow.me/about"
+            } ],
+            "date_added": "13327492783872298",
+            "date_last_used": "0",
+            "date_modified": "13374244109094655",
+            "guid": "a7c9367b-277b-41f4-b25b-7636104612ea",
+            "id": "92",
+            "name": "music",
+            "type": "folder"
+         }, {
+            "date_added": "13322827185899467",
+            "date_last_used": "0",
+            "guid": "206e45e5-817c-4d72-a88b-64ec3491775b",
+            "id": "101",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Harman Kardon Citation series : r/Soundbars",
+            "type": "url",
+            "url": "https://www.reddit.com/r/Soundbars/comments/fg1cz3/harman_kardon_citation_series/"
+         }, {
+            "date_added": "13343850925246314",
+            "date_last_used": "0",
+            "guid": "a9b1639e-0c1c-4c8b-b85d-653dcf48aa8f",
+            "id": "102",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Resources - Jarrod's Tech",
+            "type": "url",
+            "url": "https://jarrods.tech/resources/"
+         }, {
+            "date_added": "13256346813117038",
+            "date_last_used": "0",
+            "guid": "09328eef-e1d0-42ee-8071-88b0de238b3d",
+            "id": "103",
+            "name": "Les Répliques de Poing Airsoft Oui",
+            "type": "url",
+            "url": "https://www.destockage-games.com/catalogue-gamme-airsoft_les_repliques_de_poing_airsoft-parent-129-filtre_dispo-aW4_-filtres-Oui-filtre_airsoft_blowback-T3Vp-filtre_tarif-OSw5MDA_.html"
+         }, {
+            "date_added": "13352491395326515",
+            "date_last_used": "13410696150699445",
+            "guid": "04416877-5f50-4bcb-8f7c-b0a530c40dd4",
+            "id": "104",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Bouygues Telecom - Espace client",
+            "type": "url",
+            "url": "https://www.bouyguestelecom.fr/mon-compte/voirlesoptionsfai/610015428012?go2os=72155148"
+         }, {
+            "date_added": "13363033662417271",
+            "date_last_used": "13389396673474708",
+            "guid": "6ab23fd9-bc1b-42da-b60a-43a38580bc3b",
+            "id": "105",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "63 Best Free Movie Streaming Sites Available in 2024 - ExtremeVPN",
+            "type": "url",
+            "url": "https://extremevpn.com/blog/free-streaming-sites-movies-tv-shows/#h-3-1hd"
+         }, {
+            "date_added": "13366639531859342",
+            "date_last_used": "0",
+            "guid": "2258e762-099b-4562-82ec-d244406afa43",
+            "id": "106",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Managing the GRUB Menu in Fedora Distributions | Baeldung on Linux",
+            "type": "url",
+            "url": "https://www.baeldung.com/linux/grub-menu-management"
+         }, {
+            "date_added": "13376613149304795",
+            "date_last_used": "0",
+            "guid": "6507011c-29d0-4ae3-8d33-0dcf8696a98c",
+            "id": "107",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "(59) piano tutorial \"SAVOIR AIMER\" Florent Pagny, with free sheet music - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=p76Sce85jX4"
+         } ],
+         "date_added": "13407325800041706",
+         "date_last_used": "0",
+         "date_modified": "13376613149304795",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13407325800041706",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

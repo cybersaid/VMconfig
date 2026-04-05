@@ -1,0 +1,7 @@
+2026/04/05-09:42:18.518 5 Reusing MANIFEST /home/shadrix/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
+2026/04/05-09:42:18.526 5 Recovering log #4401
+2026/04/05-09:42:18.526 5 Level-0 table #4404: started
+2026/04/05-09:42:18.528 5 Level-0 table #4404: 15716 bytes OK
+2026/04/05-09:42:18.528 5 Recovering log #4403
+2026/04/05-09:42:18.528 5 Reusing old log /home/shadrix/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/004403.log 
+2026/04/05-09:42:18.531 5 Delete type=0 #4401
