@@ -1,34 +1,45 @@
 #!/bin/bash
-DOTFILES_DIR="$(pwd)/dotfiles"
-BACKUP_DIR="$HOME/dotfiles_backup_$(date +%Y%m%d)"
 
-# Crée un dossier de sauvegarde
-mkdir -p "$BACKUP_DIR"
+# --- Variables ---
+REPO_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"  # Racine du dépôt
+DOTFILES_DIR="$REPO_DIR/dotfiles"
+BACKUP_DIR="$HOME/dotfiles_backup_$(date +%Y%m%d_%H%M%S)"
 
-# Fonction pour créer un lien symbolique ou sauvegarder l'ancien fichier
+# --- Fonction pour lier un fichier/dossier ---
 link_dotfile() {
     local src="$1"
     local dest="$2"
     if [ -e "$dest" ]; then
-        echo "Backup $dest to $BACKUP_DIR/"
+        echo "➡️ Sauvegarde de $dest vers $BACKUP_DIR/"
         mv "$dest" "$BACKUP_DIR/"
     fi
-    cp -r "$src" "$dest"
-    echo "Copied $src to $dest"
+    mkdir -p "$(dirname "$dest")"
+    ln -sfn "$src" "$dest" || {
+        echo "❌ Impossible de lier $src vers $dest"
+        return 1
+    }
+    echo "✅ Lié : $src → $dest"
 }
 
-# Copie les fichiers racine
-for file in "$DOTFILES_DIR"/.{bashrc,zshrc,p10k.zsh,nvidia-settings-rc}; do
-    if [ -f "$file" ]; then
-        link_dotfile "$file" "$HOME/$(basename "$file")"
+# --- Lier les fichiers racine (si ils existent) ---
+for file in .bashrc .zshrc .p10k.zsh .nvidia-settings-rc; do
+    if [ -f "$DOTFILES_DIR/$file" ]; then
+        link_dotfile "$DOTFILES_DIR/$file" "$HOME/$file"
     fi
 done
 
-# Copie le dossier .config/ et ses sous-dossiers
-if [ -d "$DOTFILES_DIR/.config" ]; then
-    for config in $(ls -A "$DOTFILES_DIR/.config"); do
-        link_dotfile "$DOTFILES_DIR/.config/$config" "$HOME/.config/$config"
-    done
+# --- Lier les dossiers de ~/.config ---
+for dir in kitty niri btop fastfetch geany Thunar DankMaterialShell BraveSoftware autostart; do
+    if [ -d "$DOTFILES_DIR/$dir" ]; then
+        link_dotfile "$DOTFILES_DIR/$dir" "$HOME/.config/$dir"
+    fi
+done
+
+# --- Lier oh-my-zsh (avec renommage si nécessaire) ---
+if [ -d "$DOTFILES_DIR/oh-my-zsh_dotfolder" ]; then
+    link_dotfile "$DOTFILES_DIR/oh-my-zsh_dotfolder" "$HOME/.oh-my-zsh"
+elif [ -d "$DOTFILES_DIR/.oh-my-zsh" ]; then
+    link_dotfile "$DOTFILES_DIR/.oh-my-zsh" "$HOME/.oh-my-zsh"
 fi
 
-echo "Dotfiles copied successfully!"
+echo "✅ Dotfiles liés avec succès !"
