@@ -59,7 +59,6 @@ backup_existing
 # Exécuter les scripts dans l'ordre
 run_script "$REPO_DIR/scripts/01_install_packages.sh"
 run_script "$REPO_DIR/scripts/02_install_flatpaks.sh"
-run_script "$REPO_DIR/scripts/03_install_gnome_extensions.sh"
 run_script "$REPO_DIR/scripts/04_copy_dotfiles.sh"
 run_script "$REPO_DIR/scripts/05_final_tweaks.sh"
 
