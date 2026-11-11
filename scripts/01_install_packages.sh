@@ -85,7 +85,7 @@ install_paquets "dépendances" "${PAQUETS_DEPENDANCES[@]}"
 
 # --- Installation de Niri (via COPR) ---
 echo "➡️ Installation de Niri..."
-sudo dnf install -y niri || {
+sudo dnf install -y niri dms || {
     echo "⚠️ Niri n'a pas pu être installé. Vérifiez le dépôt COPR."
 }
 echo "➡️ Installation de Oh-my-zsh"
