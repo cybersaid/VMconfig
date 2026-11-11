@@ -88,6 +88,8 @@ echo "➡️ Installation de Niri..."
 sudo dnf install -y niri || {
     echo "⚠️ Niri n'a pas pu être installé. Vérifiez le dépôt COPR."
 }
+echo "➡️ Installation de Oh-my-zsh"
+sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 echo "✅ Installation des paquets terminée (certains peuvent avoir été ignorés)."
 
