@@ -26,6 +26,9 @@ PAQUETS_UTILITAIRES=(
     abrt
     abrt-addon-ccpp
     abrt-addon-xorg
+    rofi
+    thunar
+    fuzzel
 )
 
 PAQUETS_TERMINAL=(

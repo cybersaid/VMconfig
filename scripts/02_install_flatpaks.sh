@@ -25,6 +25,7 @@ flatpak install -y flathub \
     org.gtk.Gtk3theme.Flat-Remix-GTK-Blue-Dark \
     org.kde.WaylandDecoration.QAdwaitaDecorations \
     org.localsend.localsend_app \
-    org.onlyoffice.desktopeditors
+    org.onlyoffice.desktopeditors \
+    com.brave.Browser
 
 echo "✅ Flatpaks installés avec succès !"
