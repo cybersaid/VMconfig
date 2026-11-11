@@ -1,55 +1,45 @@
 #!/bin/bash
 
 # --- Variables ---
-REPO_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"  # Remonte à la racine du dépôt
+REPO_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"   # ⚠️ UN seul niveau !
 DOTFILES_DIR="$REPO_DIR/dotfiles"
+BACKUP_DIR="$HOME/dotfiles_backup_$(date +%Y%m%d_%H%M%S)"
 
-# --- Fonction pour lier un dossier ---
-link_dir() {
-    local src="$1"
-    local dest="$2"
-    if [ -d "$src" ]; then
-        mkdir -p "$(dirname "$dest")"
-        ln -sfn "$src" "$dest" || echo "⚠️ Impossible de lier $src vers $dest"
-    else
-        echo "⚠️ Dossier source introuvable : $src"
-    fi
-}
+echo "➡️ Dépôt détecté : $REPO_DIR"
 
-# --- Lier les dossiers de config ---
-echo "➡️ Liaison des dotfiles..."
-
-# Kitty
-link_dir "$DOTFILES_DIR/kitty" "$HOME/.config/kitty"
-
-# btop
-link_dir "$DOTFILES_DIR/btop" "$HOME/.config/btop"
-
-# fastfetch
-link_dir "$DOTFILES_DIR/fastfetch" "$HOME/.config/fastfetch"
-
-# niri
-link_dir "$DOTFILES_DIR/niri" "$HOME/.config/niri"
-
-# oh-my-zsh (à adapter si tu veux garder le nom "oh-my-zsh_dotfolder")
-if [ -d "$DOTFILES_DIR/oh-my-zsh_dotfolder" ]; then
-    ln -sfn "$DOTFILES_DIR/oh-my-zsh_dotfolder" "$HOME/.oh-my-zsh" || \
-        echo "⚠️ Impossible de lier oh-my-zsh. Vérifiez les permissions."
+if [ ! -d "$DOTFILES_DIR" ]; then
+    echo "❌ Dossier dotfiles introuvable : $DOTFILES_DIR" >&2
+    exit 1
 fi
 
-# Thunar
-link_dir "$DOTFILES_DIR/Thunar" "$HOME/.config/Thunar"
+link_dotfile() {
+    local src="$1"
+    local dest="$2"
+    if [ -e "$dest" ] || [ -L "$dest" ]; then
+        mkdir -p "$BACKUP_DIR"
+        echo "➡️ Sauvegarde de $dest vers $BACKUP_DIR/"
+        mv "$dest" "$BACKUP_DIR/"
+    fi
+    mkdir -p "$(dirname "$dest")"
+    ln -sfn "$src" "$dest" || { echo "❌ Impossible de lier $src → $dest"; return 1; }
+    echo "✅ Lié : $src → $dest"
+}
 
-# DankMaterialShell
-link_dir "$DOTFILES_DIR/DankMaterialShell" "$HOME/.config/DankMaterialShell"
+# Fichiers racine
+for file in .bashrc .zshrc .p10k.zsh .nvidia-settings-rc; do
+    [ -f "$DOTFILES_DIR/$file" ] && link_dotfile "$DOTFILES_DIR/$file" "$HOME/$file"
+done
 
-# geany
-link_dir "$DOTFILES_DIR/geany" "$HOME/.config/geany"
+# Dossiers de ~/.config
+for dir in kitty niri btop fastfetch geany Thunar DankMaterialShell BraveSoftware autostart; do
+    [ -d "$DOTFILES_DIR/$dir" ] && link_dotfile "$DOTFILES_DIR/$dir" "$HOME/.config/$dir"
+done
 
-# BraveSoftware (si c'est pour les profils)
-link_dir "$DOTFILES_DIR/BraveSoftware" "$HOME/.config/BraveSoftware"
-
-# autostart
-link_dir "$DOTFILES_DIR/autostart" "$HOME/.config/autostart"
+# oh-my-zsh
+if [ -d "$DOTFILES_DIR/oh-my-zsh_dotfolder" ]; then
+    link_dotfile "$DOTFILES_DIR/oh-my-zsh_dotfolder" "$HOME/.oh-my-zsh"
+elif [ -d "$DOTFILES_DIR/.oh-my-zsh" ]; then
+    link_dotfile "$DOTFILES_DIR/.oh-my-zsh" "$HOME/.oh-my-zsh"
+fi
 
 echo "✅ Dotfiles liés avec succès !"
