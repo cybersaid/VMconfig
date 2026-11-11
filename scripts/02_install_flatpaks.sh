@@ -10,7 +10,7 @@ if ! command -v flatpak &> /dev/null; then
 fi
 
 # Configurer flatpak pour des téléchargements parallèles
-flatpak --user config --set experimental max-parallel-downloads 10
+flatpak --user config --set experimental max-parallel-downloads 5
 
 # Ajouter Flathub si ce n'est pas déjà fait
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
