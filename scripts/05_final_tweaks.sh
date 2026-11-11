@@ -1,5 +1,5 @@
 #!/bin/bash
-CUSTOM_DIR="$(pwd)/custom"
+CUSTOM_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)/custom"
 
 # Installe les polices
 if [ -d "$CUSTOM_DIR/fonts" ]; then
