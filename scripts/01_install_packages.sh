@@ -31,6 +31,7 @@ PAQUETS_UTILITAIRES=(
 PAQUETS_TERMINAL=(
     kitty
     zsh
+    fzf
 )
 
 PAQUETS_EDITION=(
