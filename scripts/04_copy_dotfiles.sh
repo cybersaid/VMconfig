@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # --- Variables ---
-REPO_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"  # Remonte à la racine du dépôt
+REPO_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"  # Remonte à la racine du dépôt
 DOTFILES_DIR="$REPO_DIR/dotfiles"
 
 # --- Fonction pour lier un dossier ---
