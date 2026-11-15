@@ -10,6 +10,12 @@ echo "➡️ Ajout du dépôt COPR pour Niri..."
 sudo dnf copr enable avengemedia/dms
 sudo dnf copr enable yalter/niri
 
+# --- Permettre les installations parallèles --- 
+echo "➡️ Ajout de max_parallel_downloads=10" 
+echo "max_parallel_downloads=10" | sudo tee -a "/etc/dnf/dnf.conf"
+echo "➡️ Ajout de fastestmirror=True" 
+echo "fastestmirro=True" | sudo tee -a "/etc/dnf/dnf.conf"
+
 # --- Mise à jour de dnf ---
 echo "➡️ Mise à jour de dnf..."
 sudo dnf update -y

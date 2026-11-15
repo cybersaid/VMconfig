@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # --- Variables ---
-REPO_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"   # ⚠️ UN seul niveau !
+REPO_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 DOTFILES_DIR="$REPO_DIR/dotfiles"
 BACKUP_DIR="$HOME/dotfiles_backup_$(date +%Y%m%d_%H%M%S)"
 
@@ -12,7 +12,7 @@ if [ ! -d "$DOTFILES_DIR" ]; then
     exit 1
 fi
 
-link_dotfile() {
+copy_dotfile() {
     local src="$1"
     local dest="$2"
     if [ -e "$dest" ] || [ -L "$dest" ]; then
@@ -21,25 +21,25 @@ link_dotfile() {
         mv "$dest" "$BACKUP_DIR/"
     fi
     mkdir -p "$(dirname "$dest")"
-    ln -sfn "$src" "$dest" || { echo "❌ Impossible de lier $src → $dest"; return 1; }
-    echo "✅ Lié : $src → $dest"
+    cp -r "$src" "$dest" || { echo "❌ Impossible de copier $src → $dest"; return 1; }
+    echo "✅ Copié : $src → $dest"
 }
 
 # Fichiers racine
 for file in .bashrc .zshrc .p10k.zsh .nvidia-settings-rc; do
-    [ -f "$DOTFILES_DIR/$file" ] && link_dotfile "$DOTFILES_DIR/$file" "$HOME/$file"
+    [ -f "$DOTFILES_DIR/$file" ] && copy_dotfile "$DOTFILES_DIR/$file" "$HOME/$file"
 done
 
 # Dossiers de ~/.config
 for dir in kitty niri btop fastfetch geany Thunar DankMaterialShell BraveSoftware autostart; do
-    [ -d "$DOTFILES_DIR/$dir" ] && link_dotfile "$DOTFILES_DIR/$dir" "$HOME/.config/$dir"
+    [ -d "$DOTFILES_DIR/$dir" ] && copy_dotfile "$DOTFILES_DIR/$dir" "$HOME/.config/$dir"
 done
 
 # oh-my-zsh
 if [ -d "$DOTFILES_DIR/oh-my-zsh_dotfolder" ]; then
-    link_dotfile "$DOTFILES_DIR/oh-my-zsh_dotfolder" "$HOME/.oh-my-zsh"
+    copy_dotfile "$DOTFILES_DIR/oh-my-zsh_dotfolder" "$HOME/.oh-my-zsh"
 elif [ -d "$DOTFILES_DIR/.oh-my-zsh" ]; then
-    link_dotfile "$DOTFILES_DIR/.oh-my-zsh" "$HOME/.oh-my-zsh"
+    copy_dotfile "$DOTFILES_DIR/.oh-my-zsh" "$HOME/.oh-my-zsh"
 fi
 
-echo "✅ Dotfiles liés avec succès !"
+echo "✅ Dotfiles copiés avec succès !" 

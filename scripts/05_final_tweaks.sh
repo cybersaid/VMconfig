@@ -40,7 +40,7 @@ fi
 echo "➡️ Installation du thème d'icônes Adwair..."
 ADWAIR_DIR=$(mktemp -d)
 if git clone --depth 1 https://github.com/kusaida/Adwair.git "$ADWAIR_DIR"; then
-    chmod +x "$ADWAIR_DIR/install.sh"
+    chmod +x "$ADWAIR_DIR/install.sh -c red"
     "$ADWAIR_DIR/install.sh" || echo "⚠️ L'installation d'Adwair a échoué (ignoré)."
 else
     echo "⚠️ Impossible de cloner Adwair (ignoré)."
@@ -52,7 +52,7 @@ rm -rf "$ADWAIR_DIR"
 # ============================================================
 echo "➡️ Application du thème GTK et des icônes..."
 gsettings set org.gnome.desktop.interface gtk-theme "Flat-Remix-GTK-Blue-Dark"
-gsettings set org.gnome.desktop.interface icon-theme "Adwair-dark"
+gsettings set org.gnome.desktop.interface icon-theme "Adwair"
 gsettings set org.gnome.desktop.interface font-name "JetBrains Mono 11"
 
 # ============================================================
@@ -60,21 +60,19 @@ gsettings set org.gnome.desktop.interface font-name "JetBrains Mono 11"
 # ============================================================
 WALLPAPER_DIR="$CUSTOM_DIR/wallpaper"
 
-if [ -d "$WALLPAPER_DIR" ] && ls "$WALLPAPER_DIR"/*.{jpg,jpeg,png} &>/dev/null; then
+# Récupère les images dans un tableau (nullglob : globs sans match = rien)
+shopt -s nullglob
+IMAGES=("$WALLPAPER_DIR"/*.{jpg,jpeg,png,JPG,JPEG,PNG})
+shopt -u nullglob
+
+if [ ${#IMAGES[@]} -gt 0 ]; then
     echo "➡️ Configuration du fond d'écran..."
 
     # Image choisie : première par ordre alphabétique
     # (décommente la ligne suivante pour une image aléatoire)
-    # WALLPAPER=$(ls "$WALLPAPER_DIR"/*.{jpg,jpeg,png} 2>/dev/null | shuf -n 1)
-    WALLPAPER=$(ls "$WALLPAPER_DIR"/*.{jpg,jpeg,png} 2>/dev/null | sort | head -n 1)
-
-    BG_DIR="$HOME/.local/share/backgrounds"
-    mkdir -p "$BG_DIR"
-    cp -r "$WALLPAPER_DIR"/* "$BG_DIR/" 2>/dev/null
-
-    # Nom fixe pour un chemin stable dans les configs
-    cp "$WALLPAPER" "$BG_DIR/wallpaper-set.jpg"
-
+    # WALLPAPER="${IMAGES[RANDOM % ${#IMAGES[@]}]}"
+    WALLPAPER="${IMAGES[0]}" 
+    
     # --- GNOME ---
     if command -v gsettings &>/dev/null; then
         gsettings set org.gnome.desktop.background picture-uri "file://$BG_DIR/wallpaper-set.jpg"
