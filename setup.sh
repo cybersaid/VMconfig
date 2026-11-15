@@ -1,8 +1,29 @@
 #!/bin/bash
 
 # --- Variables ---
-REPO_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"  # Chemin absolu du dépôt
-BACKUP_DIR="$HOME/dotfiles_backup_$(date +%Y%m%d_%H%M%S)"  # Dossier de backup
+REPO_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+BACKUP_DIR="$HOME/dotfiles_backup_$(date +%Y%m%d_%H%M%S)"
+SKIP_FLATPAK=false
+
+# --- Gestion des options ---
+for arg in "$@"; do
+    case "$arg" in
+        --no-flatpak|-nf)
+            SKIP_FLATPAK=true
+            echo "⏭️  Option activée : les Flatpaks seront ignorés."
+            ;;
+        --help|-h)
+            echo "Usage : ./setup.sh [OPTIONS]"
+            echo "  --no-flatpak, -nf   Ignore l'installation des Flatpaks (étape 02)"
+            echo "  --help, -h          Affiche cette aide"
+            exit 0
+            ;;
+        *)
+            echo "❌ Option inconnue : $arg (voir ./setup.sh --help)" >&2
+            exit 1
+            ;;
+    esac
+done
 
 # --- Fonctions ---
 error_exit() {
@@ -14,7 +35,6 @@ backup_existing() {
     echo "➡️ Sauvegarde des fichiers existants dans $BACKUP_DIR..."
     mkdir -p "$BACKUP_DIR"
 
-    # Liste des fichiers/dossiers à sauvegarder (à adapter)
     local files_to_backup=(
         "$HOME/.config/kitty"
         "$HOME/.config/btop"
@@ -56,9 +76,14 @@ run_script() {
 check_dependencies
 backup_existing
 
-# Exécuter les scripts dans l'ordre
 run_script "$REPO_DIR/scripts/01_install_packages.sh"
-run_script "$REPO_DIR/scripts/02_install_flatpaks.sh"
+
+if [ "$SKIP_FLATPAK" = false ]; then
+    run_script "$REPO_DIR/scripts/02_install_flatpaks.sh"
+else
+    echo "⏭️  Étape 02 (Flatpaks) ignorée."
+fi
+
 run_script "$REPO_DIR/scripts/04_copy_dotfiles.sh"
 run_script "$REPO_DIR/scripts/05_final_tweaks.sh"
 
