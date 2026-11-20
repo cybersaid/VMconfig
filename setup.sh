@@ -84,6 +84,7 @@ else
     echo "⏭️  Étape 02 (Flatpaks) ignorée."
 fi
 
+run_script "$REPO_DIR/scripts/03_ryoku_clock.sh"
 run_script "$REPO_DIR/scripts/04_copy_dotfiles.sh"
 run_script "$REPO_DIR/scripts/05_final_tweaks.sh"
 
