@@ -118,8 +118,5 @@ fi
 # 8. Changement du gestionnaire de session
 # ============================================================
 sudo dnf install -y sddm
-# 2. Désactiver GDM, activer SDDM
-sudo systemctl disable gdm
-sudo systemctl enable sddm 
 
 echo "✅ Tous les tweaks ont été appliqués avec succès !"

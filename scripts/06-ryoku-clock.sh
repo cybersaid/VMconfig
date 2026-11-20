@@ -81,15 +81,17 @@ run dnf list --available 'sddm-theme-ryoku*'
 run_root dnf install -y sddm-theme-ryoku
 
 echo
-echo "== 3. Remplacement de GDM par SDDM =="
+echo "== 3. Remplacement de GDM par SDDM au prochain démarrage =="
+
 if systemctl list-unit-files | grep -q '^gdm\.service'; then
-  run_root systemctl disable --now gdm.service
+  # IMPORTANT : pas de --now, sinon la session graphique active est tuée.
+  run_root systemctl disable gdm.service
 else
   echo "GDM n’est pas installé ou n’est pas activé."
 fi
 
 run_root systemctl enable sddm.service
-run_root systemctl set-default graphical.target
+run_root systemctl set-default graphical.target 
 
 echo
 echo "== 4. Clavier AZERTY =="
@@ -121,6 +123,19 @@ GreeterEnvironment=QT_QPA_PLATFORM=wayland,XCURSOR_THEME=Bibata-Modern-Ice,XCURS
 CompositorCommand=/usr/share/ryoku/lockscreen/ryoku-greeter
 SessionCommand=/usr/share/ryoku/lockscreen/ryoku-wayland-session
 '
+echo
+echo "==  Activation du verrouilleur Ryoku =="
+
+if systemctl --user list-unit-files | grep -q '^ryoku-shell\.service'; then
+  run systemctl --user daemon-reload
+  run systemctl --user restart ryoku-shell.service
+  run systemctl --user status ryoku-shell --no-pager
+else
+  echo "ryoku-shell n’est pas encore installé comme service utilisateur."
+  echo "Installation du verrouilleur en mode live."
+  run env RYOKU_QYLOCK_MODE=live \
+    "$REPO_DIR/ryoku/lockscreen/install-qylock"
+fi 
 
 echo
 echo "== 8. Vérification =="

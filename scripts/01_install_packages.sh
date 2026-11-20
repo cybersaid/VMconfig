@@ -100,6 +100,10 @@ echo "➡️ Installation de Niri..."
 sudo dnf install -y niri dms || {
     echo "⚠️ Niri n'a pas pu être installé. Vérifiez le dépôt COPR."
 }
+
+systemctl --user add-wants niri.service dms
+# systemctl --user start dms Pour tester le lancement de dms 
+
 echo "➡️ Installation de Oh-my-zsh"
 sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
