@@ -202,6 +202,8 @@ overview {
 
 spawn-at-startup "swww-daemon" 
 spawn-at-startup "bash" "-c" "wl-paste --watch cliphist store &"
+spawn-at-startup "sudo systemctl --user start spice-vdagent"
+spawn-at-startup "sudo systemctl --user start xdg-desktop-portal"
 
 //spawn-at-startup "swww img ~/Pictures/wallpapers/Dreamy-Aesthetic-Home-Under-Moonlight.png --transition-type simple --transition-step 255"
 
@@ -287,7 +289,8 @@ binds {
     // shows a list of important hotkeys.
     Mod+Alt+H { show-hotkey-overlay; }
 
-    Super+L hotkey-overlay-title="Lock the Screen: swaylock" { spawn "~/bin/lock.sh"; }
+    //Super+L hotkey-overlay-title="Lock the Screen: swaylock" { spawn "~/bin/lock.sh"; }
+    Mod+L { spawn "hyprlock"; } 
 
     // Rofi shortcuts 
     Mod+D hotkey-overlay-title="Run an Application: rofi" { spawn-sh "rofi -show drun"; }

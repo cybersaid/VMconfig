@@ -35,6 +35,8 @@ PAQUETS_UTILITAIRES=(
     rofi
     thunar
     fuzzel
+    hyprlock
+    hypridle
 )
 
 PAQUETS_TERMINAL=(

@@ -31,9 +31,9 @@ for file in .bashrc .zshrc .p10k.zsh .nvidia-settings-rc; do
 done
 
 # Dossiers de ~/.config
-for dir in kitty niri btop fastfetch geany Thunar DankMaterialShell BraveSoftware autostart; do
+for dir in kitty niri btop fastfetch geany Thunar DankMaterialShell BraveSoftware autostart hypr; do
     [ -d "$DOTFILES_DIR/$dir" ] && copy_dotfile "$DOTFILES_DIR/$dir" "$HOME/.config/$dir"
-done
+done 
 
 # oh-my-zsh
 if [ -d "$DOTFILES_DIR/oh-my-zsh_dotfolder" ]; then
